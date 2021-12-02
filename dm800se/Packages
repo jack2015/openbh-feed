@@ -173,8 +173,8 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c2e5749e8d9113a14c592b203c7a3a9e
-Size: 68372
+MD5Sum: b9da27e864b4e5ddfedcfc4567f0ebea
+Size: 68360
 Filename: bitratecalc-dbg_2.0+git9+9746ced-r0_dm800se.ipk
 Source: bitratecalc.bb
 Description: Library that implements bitrate calculations from enigma2 - Debugging files
@@ -190,7 +190,7 @@ Recommends: enigma2-dev, libc6-dev, libgcc-s-dev, libstdc++-dev
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 761548e833cbc2392807fbd58a2f2dcc
+MD5Sum: 2fa3aacda00a96c785e407ef8503cf59
 Size: 788
 Filename: bitratecalc-dev_2.0+git9+9746ced-r0_dm800se.ipk
 Source: bitratecalc.bb
@@ -206,8 +206,8 @@ Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0)
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 270a3d5c99d0bb446f5b947646bbd73d
-Size: 5684
+MD5Sum: 9c5c5555109efc66f902682276233910
+Size: 5690
 Filename: bitratecalc_2.0+git9+9746ced-r0_dm800se.ipk
 Source: bitratecalc.bb
 Description: Library that implements bitrate calculations from enigma2
@@ -345,7 +345,7 @@ Depends: dreambox-secondstage-dm800se, kernel-vmlinux
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 596cafb0e4cd2d2e67e69cd7a47363e6
+MD5Sum: 41f8aace858d2a9717c00b9fdb794da7
 Size: 2169868
 Filename: dreambox-dvb-modules-dm800se_3.2-20151201-r8.1_dm800se.ipk
 Source: dreambox-dvb-modules-dm800se_3.2-20151201.bb
@@ -360,7 +360,7 @@ Provides: dreambox-secondstage
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6b5eab5c25de0c28690ec1b8f6c776f2
+MD5Sum: 703c82b7fa996be5b75e2bc639847312
 Size: 187134
 Filename: dreambox-secondstage-dm800se_84-r22.0_dm800se.ipk
 Source: dreambox-secondstage-dm800se_84.bb
@@ -370,14 +370,14 @@ License: Proprietary
 Priority: required
 
 Package: enigma2-dbg
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 79c8697d7e35b940acbb4ed9fe663efa
-Size: 24088
-Filename: enigma2-dbg_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 24e02f9911be3443ca72473e60606db5
+Size: 24122
+Filename: enigma2-dbg_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Debugging files
 OE: enigma2
@@ -385,15 +385,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-dev
-Version: 4.4+git28237+096b4da-r0
-Depends: enigma2 (= 4.4+git28237+096b4da-r0)
+Version: 4.4+git28238+eb7a73b-r0
+Depends: enigma2 (= 4.4+git28238+eb7a73b-r0)
 Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, cdrkit-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma2-fonts-dev, enigma2-plugin-skins-blackshadowsep-dev, ethtool-dev, font-valis-enigma-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, hotplug-e2-helper-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libc6-dev, libcrypt-dev, libcrypto10-dev, libdreamdvd-dev, libdvbsi++-dev, libfreetype-dev, libfribidi-dev, libgcc-s-dev, libgif-dev, libglib-2.0-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-dev, libmad-dev, libpng16-dev, libpython2-dev, libsigc-2.0-dev, libssl10-dev, libstdc++-dev, libtuxtxt-dev, libtuxtxt32bpp-dev, libudfread-dev, libxml2-dev, libxmlccwrap-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python-codecs-dev, python-core-dev, python-crypt-dev, python-dev, python-fcntl-dev, python-imaging-dev, python-lang-dev, python-mmap-dev, python-netclient-dev, python-netifaces-dev, python-netserver-dev, python-pickle-dev, python-process-dev, python-pyusb-dev, python-re-dev, python-shell-dev, python-six-dev, python-subprocess-dev, python-threading-dev, python-twisted-core-dev, python-twisted-dev, python-twisted-web-dev, python-wifi-dev, python-xml-dev, python-zlib-dev, python-zopeinterface-dev, replex-dev, virtual/blindscan-dvbc-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 460437848007f85365189d0dcb686ee2
-Size: 99820
-Filename: enigma2-dev_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 751e528e0c3d75d270a1322dfc8a6694
+Size: 99828
+Filename: enigma2-dev_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files
 OE: enigma2
@@ -401,13 +401,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-fonts
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 572f1c8d5083be730b48b0eed7e69d51
-Size: 635308
-Filename: enigma2-fonts_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 08f1ab103991517356270104da607fdf
+Size: 634602
+Filename: enigma2-fonts_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -415,14 +415,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: fd8bef376092e602594bf9163af0dcac
-Size: 19168
-Filename: enigma2-locale-ar_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 9ad082bfae9c54597adcb263cfed1f29
+Size: 19202
+Filename: enigma2-locale-ar_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: ar
 OE: enigma2
@@ -430,14 +430,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 6af681a461fee8193003d5e1911649d8
+MD5Sum: 1889fe2c7fb9a839322dd1b2e0bf2ab8
 Size: 17206
-Filename: enigma2-locale-bg_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-locale-bg_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: bg
 OE: enigma2
@@ -445,14 +445,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 6131cc6fea1fba4a7499460d0ef54e40
-Size: 9030
-Filename: enigma2-locale-ca_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 2a5326882a7fe83b94f3c84e53fd9d8e
+Size: 9026
+Filename: enigma2-locale-ca_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: ca
 OE: enigma2
@@ -460,14 +460,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 48cc40cfc0cc83712b173922ad30a5c0
-Size: 35382
-Filename: enigma2-locale-cs_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 159e4f0aa0e8be1101c969f43556321c
+Size: 35378
+Filename: enigma2-locale-cs_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: cs
 OE: enigma2
@@ -475,14 +475,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-da
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 5a42865bac20cec3634012be24d6a26e
-Size: 23924
-Filename: enigma2-locale-da_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 77be172911f3a20f63e371cc75070532
+Size: 23932
+Filename: enigma2-locale-da_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: da
 OE: enigma2
@@ -490,14 +490,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-de
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 20df5253da4513bd760d952450468722
-Size: 69664
-Filename: enigma2-locale-de_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 7b7f0c6f6aed8440bfe6e08ec415ba59
+Size: 69680
+Filename: enigma2-locale-de_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: de
 OE: enigma2
@@ -505,14 +505,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-el
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 6988a8c10fe9a48a4095613abdabd11b
-Size: 25888
-Filename: enigma2-locale-el_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: bed8b74375b6ea6a77a1f273fba380b1
+Size: 25890
+Filename: enigma2-locale-el_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: el
 OE: enigma2
@@ -520,14 +520,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en-au
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: aa58a9ac8e6eb7d24c8f9a573a1db823
-Size: 44520
-Filename: enigma2-locale-en-au_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 03c5178f72183264fbdd69ca5b441221
+Size: 44518
+Filename: enigma2-locale-en-au_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: en-au
 OE: enigma2
@@ -535,14 +535,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en-gb
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 53e959507071447692c394bca4fcde42
-Size: 44664
-Filename: enigma2-locale-en-gb_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 6aa5483064d05f64b180bc99f33b0c37
+Size: 44654
+Filename: enigma2-locale-en-gb_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: en-gb
 OE: enigma2
@@ -550,14 +550,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-en
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 5b5eb9491ecded3f774bf9bb93a9edba
-Size: 36190
-Filename: enigma2-locale-en_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 38b76c8e9bdbcd2a4fbf69aa03ea9646
+Size: 36174
+Filename: enigma2-locale-en_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: en
 OE: enigma2
@@ -565,14 +565,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-es
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: cb345b58870f5ca57349d0b5190941db
-Size: 51214
-Filename: enigma2-locale-es_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: bbba870ed9a28a74762d82e5108490b9
+Size: 51298
+Filename: enigma2-locale-es_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: es
 OE: enigma2
@@ -580,14 +580,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-et
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 9623d1b014f378329a9a9a2faf3bbfb4
-Size: 93134
-Filename: enigma2-locale-et_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: e09e27ec5634e4390a263729830395f3
+Size: 93146
+Filename: enigma2-locale-et_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: et
 OE: enigma2
@@ -595,14 +595,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 3ac41dc6a2f77e42ef7d00b94b480ebd
-Size: 20370
-Filename: enigma2-locale-fa_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 243bde993292833099dfbd953855a7c4
+Size: 20348
+Filename: enigma2-locale-fa_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: fa
 OE: enigma2
@@ -610,14 +610,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: d8344403449ad623eeb02a197b21b933
-Size: 69908
-Filename: enigma2-locale-fi_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 640f81ef527e26e6c4019c652ad31f35
+Size: 69832
+Filename: enigma2-locale-fi_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: fi
 OE: enigma2
@@ -625,14 +625,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 5d5886c459e11382e61af29f4eae3e91
-Size: 98940
-Filename: enigma2-locale-fr_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: a7efe898f51aac0d15c7b7e92ed15645
+Size: 98972
+Filename: enigma2-locale-fr_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: fr
 OE: enigma2
@@ -640,14 +640,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 5835891237f9540d1d9b6f8df25f0691
-Size: 15420
-Filename: enigma2-locale-fy_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 87345e8bdf8a87df381aaf9d8fa7756c
+Size: 15416
+Filename: enigma2-locale-fy_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: fy
 OE: enigma2
@@ -655,14 +655,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-he
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 6cfcbba26ac56840344d3758891ba441
+MD5Sum: 93c76d492418bb635ee36e68046e1ace
 Size: 16104
-Filename: enigma2-locale-he_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-locale-he_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: he
 OE: enigma2
@@ -670,14 +670,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: e15bfd0b9deb9e2070fa616ccc71dde8
-Size: 10336
-Filename: enigma2-locale-hr_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 651cdda82da3cdfd674501cc3e99f8e8
+Size: 10324
+Filename: enigma2-locale-hr_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: hr
 OE: enigma2
@@ -685,14 +685,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 2e6d983865a166934f37a7856708d8f5
-Size: 23964
-Filename: enigma2-locale-hu_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: ce5822d0b32e5c3c95bfe7cf1621b870
+Size: 23972
+Filename: enigma2-locale-hu_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: hu
 OE: enigma2
@@ -700,14 +700,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-is
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 9b1d4374a63cb0c194bc8818ca346168
-Size: 22030
-Filename: enigma2-locale-is_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: f9a8f93a3a7aaeb1171793f800f3efed
+Size: 22006
+Filename: enigma2-locale-is_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: is
 OE: enigma2
@@ -715,14 +715,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-it
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: e3e5430162b28327f3d4d6aa1cd258dc
-Size: 96054
-Filename: enigma2-locale-it_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: f7b62b6c4f9a81838cad1f1cebbce32c
+Size: 96042
+Filename: enigma2-locale-it_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: it
 OE: enigma2
@@ -730,14 +730,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 58ceea241858fe1f044c10db2cb900b8
-Size: 24540
-Filename: enigma2-locale-ku_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 091e7f4825d8901f834b88198bf9b2d0
+Size: 24500
+Filename: enigma2-locale-ku_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: ku
 OE: enigma2
@@ -745,14 +745,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 19a46a08fc422de30a40483f5347994e
-Size: 100432
-Filename: enigma2-locale-lt_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 2271c0d5661f4a22d7388584472abf8e
+Size: 100452
+Filename: enigma2-locale-lt_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: lt
 OE: enigma2
@@ -760,14 +760,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: e53408d597493d3b6e0d866f082fb32e
+MD5Sum: 24500970a1716777b49f97c76d0a6c7c
 Size: 17092
-Filename: enigma2-locale-lv_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-locale-lv_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: lv
 OE: enigma2
@@ -779,8 +779,8 @@ Version: 1.0-r0
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b48e24a773e34d342258bffab7b3dde3
-Size: 674
+MD5Sum: 4eee1784cb33e87c3b6cf00b797fb513
+Size: 676
 Filename: enigma2-locale-meta-dbg_1.0-r0_dm800se.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Debugging files
@@ -794,8 +794,8 @@ Depends: enigma2-locale-meta (= 1.0-r0)
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a8e29001a7192043b19c76273ffd86cb
-Size: 704
+MD5Sum: 7dac74f97c13de39000e4a59d5bb0812
+Size: 706
 Filename: enigma2-locale-meta-dev_1.0-r0_dm800se.ipk
 Source: enigma2-locale-meta.bb
 Description: meta file for enigma2 locales - Development files
@@ -809,7 +809,7 @@ Recommends: enigma2-locale-de, enigma2-locale-el, enigma2-locale-en, enigma2-loc
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 15711ce7ebae5318d58886d5cc15c1d5
+MD5Sum: 20a8c785770b5f56269a44fdc7597c72
 Size: 634
 Filename: enigma2-locale-meta_1.0-r0_dm800se.ipk
 Source: enigma2-locale-meta.bb
@@ -819,14 +819,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 02343ab23866977932282f6c20f96b9b
-Size: 1092
-Filename: enigma2-locale-nb_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 799fe03ba4a48c9a58481ca32b741c95
+Size: 1090
+Filename: enigma2-locale-nb_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: nb
 OE: enigma2
@@ -834,14 +834,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: fcb60d4673baed74af78f39f6e81497d
-Size: 69624
-Filename: enigma2-locale-nl_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: b678ceebd2e808542070ba4e45527880
+Size: 69614
+Filename: enigma2-locale-nl_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: nl
 OE: enigma2
@@ -849,14 +849,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-no
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: ad0958795f6458d3d6bacf19cd7e5b76
-Size: 57494
-Filename: enigma2-locale-no_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: bd4158436b032cd0e4cfa72b9827dd75
+Size: 57538
+Filename: enigma2-locale-no_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: no
 OE: enigma2
@@ -864,14 +864,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: ec6b006f61d32bb0d010536a647889d0
-Size: 24786
-Filename: enigma2-locale-pl_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 334d609107bc793560dcc04370cde46b
+Size: 24780
+Filename: enigma2-locale-pl_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: pl
 OE: enigma2
@@ -879,14 +879,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 24c3b2f584fa169fcac8686d0a5a9086
-Size: 35074
-Filename: enigma2-locale-pt-br_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: c62851cef94a0e1bcf44302171762d4c
+Size: 35056
+Filename: enigma2-locale-pt-br_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: pt-br
 OE: enigma2
@@ -894,14 +894,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 662d41e8edcd729a167fd3a6d5b9639c
-Size: 71426
-Filename: enigma2-locale-pt_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 099c73fd7d66c4afa473d1407467ae3b
+Size: 71458
+Filename: enigma2-locale-pt_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: pt
 OE: enigma2
@@ -909,14 +909,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: bae21a50f0eaf9f25f48d35d52702bbc
-Size: 16966
-Filename: enigma2-locale-ro_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: ba0cff176b2a4de176c268216079e309
+Size: 16950
+Filename: enigma2-locale-ro_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: ro
 OE: enigma2
@@ -924,14 +924,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: a14137cbfd9f08dc486b3de6e90fc031
-Size: 114768
-Filename: enigma2-locale-ru_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 09a6a19adcea306d9733fbe93535f16d
+Size: 114718
+Filename: enigma2-locale-ru_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: ru
 OE: enigma2
@@ -939,14 +939,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: ddbbdf166ed38592451de9c07ddb049c
-Size: 60232
-Filename: enigma2-locale-sk_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: f374aa1e4c143f1b2bd77f4b0ea474a6
+Size: 60234
+Filename: enigma2-locale-sk_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: sk
 OE: enigma2
@@ -954,14 +954,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 9166ead68123ad42e1b95467f094eb7a
-Size: 23906
-Filename: enigma2-locale-sl_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 1bd3450965b36776f6b599226e47d590
+Size: 23910
+Filename: enigma2-locale-sl_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: sl
 OE: enigma2
@@ -969,14 +969,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 90a2dbcad2137df580292fd523165937
-Size: 22178
-Filename: enigma2-locale-sr_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: c36b4eb088768608895c61a7769bcdff
+Size: 22182
+Filename: enigma2-locale-sr_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: sr
 OE: enigma2
@@ -984,14 +984,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: f5524d98518d21a2e8df75724ae59501
-Size: 55704
-Filename: enigma2-locale-sv_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 4107d809e00cf5ff7a03b9f06151f506
+Size: 55714
+Filename: enigma2-locale-sv_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: sv
 OE: enigma2
@@ -999,14 +999,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-th
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 90430263325666a9a6e19150b3e4bd87
-Size: 20332
-Filename: enigma2-locale-th_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: b148d7c45e79f83db285fb97a5c3e268
+Size: 20326
+Filename: enigma2-locale-th_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: th
 OE: enigma2
@@ -1014,14 +1014,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 35cd0e8a7a3af6a66bd72c097b62e03c
-Size: 53050
-Filename: enigma2-locale-tr_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 1916cc764ff1cd1f57205b6b467c9fcd
+Size: 53070
+Filename: enigma2-locale-tr_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: tr
 OE: enigma2
@@ -1029,14 +1029,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 8c90b01d9a95782da1d418ad66f4dc0d
+MD5Sum: 17a877964c1a1e3dc511830482446087
 Size: 19206
-Filename: enigma2-locale-uk_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-locale-uk_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: uk
 OE: enigma2
@@ -1044,14 +1044,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 58fc62bab012ea7ea5b50b53365fd9b4
-Size: 85070
-Filename: enigma2-locale-zh-cn_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 4edafd4fee9f6948b3265985b7fa5429
+Size: 85066
+Filename: enigma2-locale-zh-cn_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: zh-cn
 OE: enigma2
@@ -1059,13 +1059,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-meta
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 23b001007df411fe46a2f50c9b36bef9
-Size: 3842
-Filename: enigma2-meta_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 5eb260f648464a5bfb6ef0b681b06141
+Size: 3858
+Filename: enigma2-meta_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -1073,14 +1073,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-oe-alliance-plugins-dbg
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Recommends: libc6-dbg, libusb-0.1-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: af222bc03c1f33eeadf575666a476f4e
+MD5Sum: f159c7cbe28d94132ba3bda995bf1b8a
 Size: 690
-Filename: enigma2-oe-alliance-plugins-dbg_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-oe-alliance-plugins-dbg_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: Additional plugins for Enigma2 - Debugging files
 OE: enigma2-oe-alliance-plugins
@@ -1088,15 +1088,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-oe-alliance-plugins-dev
-Version: 4.4+git2879+2aabde9-r1
-Depends: enigma2-oe-alliance-plugins (= 4.4+git2879+2aabde9-r1)
+Version: 4.4+git2881+306d0bf-r1
+Depends: enigma2-oe-alliance-plugins (= 4.4+git2881+306d0bf-r1)
 Recommends: alsa-utils-aplay-dev, bluez-alsa-dev, bluez-conf-dev, bluez-hcidump-dev, bluez-hidd-dev, bluez5-dev, bluez5-testtools-dev, bridge-utils-dev, djmount-dev, enigma2-plugin-extensions-lcd4linux-src-dev, fuse-utils-dev, hddtemp-dev, hostapd-dev, kernel-module-bsd-comp-dev, kernel-module-cdc-acm-dev, kernel-module-option-dev, kernel-module-ppp-async-dev, kernel-module-ppp-deflate-dev, kernel-module-ppp-generic-dev, kernel-module-ppp-mppe-dev, kernel-module-ppp-synctty-dev, kernel-module-pppoe-dev, kernel-module-pppox-dev, kernel-module-slhc-dev, kernel-module-usbserial-dev, lcd4linux-dev, libc6-dev, libfuse2-dev, libneon27-dev, libuniconf4.6-dev, libupnp1.6-dev, libusb-0.1-4-dev, libusb-0.1-dev, libwvstreams-extras-dev, libwvutils4.6-dev, minidlna-dev, ppp-dev, python-beautifulsoup4-dev, python-codecs-dev, python-ctypes-dev, python-datetime-dev, python-dnspython-dev, python-email-dev, python-icalendar-dev, python-image-dev, python-imaging-dev, python-json-dev, python-lxml-dev, python-mutagen-dev, python-pexpect-dev, python-pyamf-dev, python-pyusb-dev, python-requests-dev, python-shell-dev, python-simplejson-dev, python-soco-dev, python-subprocess-dev, python-textutils-dev, python-zlib-dev, rtmpdump-dev, satipclient-dev, usbmodeswitch-data-dev, usbmodeswitch-dev, usbutils-dev, wvdial-dev, wvstreams-dev
 Section: devel
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: d866abd3a0903dd7571146c09feb5165
+MD5Sum: b04008c866143dd65b5290ffd85bed41
 Size: 1130
-Filename: enigma2-oe-alliance-plugins-dev_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-oe-alliance-plugins-dev_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: Additional plugins for Enigma2 - Development files
 OE: enigma2-oe-alliance-plugins
@@ -1104,13 +1104,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-oe-alliance-plugins-meta
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 27338baf1d0ae6698a5e82b014fa6733
-Size: 2954
-Filename: enigma2-oe-alliance-plugins-meta_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: d2cd87cd02ffad45a1962835ff85e027
+Size: 2950
+Filename: enigma2-oe-alliance-plugins-meta_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: Additional plugins for Enigma2
 OE: enigma2-oe-alliance-plugins
@@ -1118,13 +1118,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-oe-alliance-plugins
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: c883aad348aabd16ae6ad2e897d6bb57
-Size: 1152
-Filename: enigma2-oe-alliance-plugins_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 9c34d1d12007173ca8aeea4a14ac33cd
+Size: 1150
+Filename: enigma2-oe-alliance-plugins_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: Additional plugins for Enigma2
 OE: enigma2-oe-alliance-plugins
@@ -1137,8 +1137,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0acbffc50a7b2ad40e460a95b14c343d
-Size: 3244
+MD5Sum: f6ff8a35790405da4c2af0aa46673822
+Size: 3240
 Filename: enigma2-plugin-extensions-antiscrollbar-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-antiscrollbar (source files)
@@ -1151,8 +1151,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7712f2d4d74c78fcfa45f89197635e08
-Size: 8930
+MD5Sum: 1babe612b8afe02564c03220cb101910
+Size: 8924
 Filename: enigma2-plugin-extensions-antiscrollbar_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-antiscrollbar
@@ -1166,8 +1166,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9648b319e7391d7df6bca9a776faa977
-Size: 12030
+MD5Sum: 424eea8d32b2b371dcc23e8589bf9801
+Size: 12018
 Filename: enigma2-plugin-extensions-audiosync-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-audiosync (translations)
@@ -1181,7 +1181,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0bfb539fc01e5017d84f3f7bd0a52902
+MD5Sum: 15b9abe52d0547a9a18609f524b9f459
 Size: 7650
 Filename: enigma2-plugin-extensions-audiosync-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1196,8 +1196,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d185aa75e6a59fec72bd0cf5f9f8e1bd
-Size: 36534
+MD5Sum: ab74e27e44a477be00ee9e7614ee332a
+Size: 36518
 Filename: enigma2-plugin-extensions-audiosync_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-audiosync
@@ -1211,8 +1211,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 247a2dab7ef9c7d3cddaed9fcdab9909
-Size: 131246
+MD5Sum: c976441ea9520112d9d3d1106441d3a4
+Size: 131252
 Filename: enigma2-plugin-extensions-autotimer-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-autotimer (translations)
@@ -1226,8 +1226,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7660a62ac2fae209c58714d9ae2c8d19
-Size: 44094
+MD5Sum: 8b62a40e888e460b69223ef7eb6acee4
+Size: 44098
 Filename: enigma2-plugin-extensions-autotimer-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-autotimer (source files)
@@ -1241,8 +1241,8 @@ Depends: enigma2-plugin-systemplugins-mphelp, enigma2-plugin-systemplugins-toolk
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 5cb03d8ad2a6bb7075a25f9eb1f806ed
-Size: 256628
+MD5Sum: 1d563d333e69e9ad3ece7ed7f0e26d6a
+Size: 256728
 Filename: enigma2-plugin-extensions-autotimer_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-autotimer
@@ -1256,7 +1256,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: db7b3de20ae77d2166781238968400f1
+MD5Sum: 0ef5a64c5fb03acde132137d4d251dd4
 Size: 3464
 Filename: enigma2-plugin-extensions-bonjour-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1271,8 +1271,8 @@ Depends: avahi-daemon
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 314d69e9d23c9693ec4b7ef6acca12a2
-Size: 5230
+MD5Sum: 1bf603e68c44c90fdfb1ffd4b946f16e
+Size: 5224
 Filename: enigma2-plugin-extensions-bonjour_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-bonjour
@@ -1281,14 +1281,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-btdevicesmanager-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: a85c194b11ca0b44f9468962ec2a5cf9
-Size: 6096
-Filename: enigma2-plugin-extensions-btdevicesmanager-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: b03cd0dac43df49b29a85a586c293e4f
+Size: 6100
+Filename: enigma2-plugin-extensions-btdevicesmanager-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-btdevicesmanager (translations)
 OE: enigma2-oe-alliance-plugins
@@ -1296,14 +1296,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-btdevicesmanager-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 74a3a0bbeaddf50af97541ddc32185f4
-Size: 7348
-Filename: enigma2-plugin-extensions-btdevicesmanager-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 7cbda784b9411ea94ffce1d481788a29
+Size: 7356
+Filename: enigma2-plugin-extensions-btdevicesmanager-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-btdevicesmanager (source files)
 OE: enigma2-oe-alliance-plugins
@@ -1311,14 +1311,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-btdevicesmanager
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: alsa-utils-aplay, bluez-alsa, bluez-conf, bluez-hcidump, bluez-hidd, bluez5, bluez5-testtools, enigma2-oe-alliance-plugins, python-pexpect
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 13a5d8f088cc32fd0880965c17aefc5b
-Size: 21248
-Filename: enigma2-plugin-extensions-btdevicesmanager_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 422c09158fa3604cff0800a1234f825c
+Size: 21244
+Filename: enigma2-plugin-extensions-btdevicesmanager_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-btdevicesmanager
 OE: enigma2-oe-alliance-plugins
@@ -1331,7 +1331,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 51458819b6d1e87b0462d7487f297eed
+MD5Sum: 58ff933edba13063b7c14ad11adc6d38
 Size: 3662
 Filename: enigma2-plugin-extensions-cdinfo-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1346,8 +1346,8 @@ Depends: cdtextinfo
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 2924de9cbd4bff04f6eda623d5d32dfd
-Size: 8802
+MD5Sum: afc194062e4fdb422c5c43dcb61abd08
+Size: 8798
 Filename: enigma2-plugin-extensions-cdinfo_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-cdinfo
@@ -1356,14 +1356,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: bc474ef7b84db38d53f61e50aff20ba0
-Size: 16132
-Filename: enigma2-plugin-extensions-chefkoch-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 734ad2a33560d8b035f8bf293fbf306a
+Size: 16178
+Filename: enigma2-plugin-extensions-chefkoch-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-chefkoch (source files)
 OE: enigma2-oe-alliance-plugins
@@ -1371,14 +1371,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 9f2a124ae49341e756023f446b6ef50b
-Size: 692814
-Filename: enigma2-plugin-extensions-chefkoch_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 0b193780f6afabdf724cda9c76d2786f
+Size: 693090
+Filename: enigma2-plugin-extensions-chefkoch_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-chefkoch
 OE: enigma2-oe-alliance-plugins
@@ -1386,14 +1386,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 6fb6fde975af1409109ec627f1c04de9
-Size: 4696
-Filename: enigma2-plugin-extensions-cutlisteditor-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: cadea740416ab41750cb903830ac1b91
+Size: 4694
+Filename: enigma2-plugin-extensions-cutlisteditor-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor (source files)
 OE: enigma2
@@ -1401,14 +1401,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: aio-grab, enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: ebf59712ff4ca3ccfb16abe77a4ea34c
-Size: 6756
-Filename: enigma2-plugin-extensions-cutlisteditor_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 7a4edef4f4fedc495bacfcc025030f3a
+Size: 6752
+Filename: enigma2-plugin-extensions-cutlisteditor_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
 OE: enigma2
@@ -1416,14 +1416,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dlnabrowser-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 1ade64857138f38320dc6d4358761faf
-Size: 5158
-Filename: enigma2-plugin-extensions-dlnabrowser-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 9a7cbcf8d0f88ff1323e2e16cd448132
+Size: 5140
+Filename: enigma2-plugin-extensions-dlnabrowser-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-dlnabrowser (translations)
 OE: enigma2-oe-alliance-plugins
@@ -1431,14 +1431,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dlnabrowser-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: e816cae14b66f9639f56b8e9075b077c
+MD5Sum: f238cb9d83857e246cb9379736172b7f
 Size: 8282
-Filename: enigma2-plugin-extensions-dlnabrowser-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-extensions-dlnabrowser-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-dlnabrowser (source files)
 OE: enigma2-oe-alliance-plugins
@@ -1446,14 +1446,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dlnabrowser
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: djmount, enigma2-oe-alliance-plugins, fuse-utils, libfuse2, libneon27, libupnp1.6
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: a32cffb9b6f05ebe1b9238a30bb4a079
-Size: 80900
-Filename: enigma2-plugin-extensions-dlnabrowser_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 8f6fa1dac118e668df576b3cef09fc6c
+Size: 80926
+Filename: enigma2-plugin-extensions-dlnabrowser_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-dlnabrowser
 OE: enigma2-oe-alliance-plugins
@@ -1461,14 +1461,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dlnaserver-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: e2bb4f0442a5c06ccfb48aad2970aa74
-Size: 4504
-Filename: enigma2-plugin-extensions-dlnaserver-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: fbefe5ee9f5a08648f16413186928539
+Size: 4512
+Filename: enigma2-plugin-extensions-dlnaserver-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-dlnaserver (translations)
 OE: enigma2-oe-alliance-plugins
@@ -1476,14 +1476,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dlnaserver-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 5a02b424c9e72934b86129c8cd26b161
-Size: 4626
-Filename: enigma2-plugin-extensions-dlnaserver-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 833463bb7b4668c94cb2eb9d50a4cfeb
+Size: 4622
+Filename: enigma2-plugin-extensions-dlnaserver-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-dlnaserver (source files)
 OE: enigma2-oe-alliance-plugins
@@ -1491,14 +1491,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dlnaserver
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins, minidlna
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: f05defceb7e666b5529d41a67aef346f
-Size: 10446
-Filename: enigma2-plugin-extensions-dlnaserver_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: ae255545debd551e7190a301bc814ad9
+Size: 10456
+Filename: enigma2-plugin-extensions-dlnaserver_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-dlnaserver
 OE: enigma2-oe-alliance-plugins
@@ -1511,8 +1511,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ae45490b6861f2216f7a189bc804c514
-Size: 13844
+MD5Sum: 8b1d47af821be6d672ec329c174d4bcf
+Size: 13846
 Filename: enigma2-plugin-extensions-dreamexplorer-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreamexplorer (source files)
@@ -1525,8 +1525,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: b727fbc75724b535da661098a8673067
-Size: 47848
+MD5Sum: 36ac3de693e441274f82f5ba02be8c06
+Size: 47852
 Filename: enigma2-plugin-extensions-dreamexplorer_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreamexplorer
@@ -1540,8 +1540,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 5f02c5dc4eb78b0eb623c18572a74929
-Size: 5550
+MD5Sum: 56f553b7d76f612c9f0611e674de497c
+Size: 5546
 Filename: enigma2-plugin-extensions-dreammediathek-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreammediathek (source files)
@@ -1555,8 +1555,8 @@ Depends: python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ed1cada51c9afebdbcedc279260c7ebd
-Size: 9020
+MD5Sum: 746a8bd63c6d2564a5885d132fa38637
+Size: 9026
 Filename: enigma2-plugin-extensions-dreammediathek_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dreammediathek
@@ -1570,7 +1570,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: daecedc868f458c4a17d04fe4ef98a5b
+MD5Sum: 50d66709e4ad6eb0f0eb164397b48a2a
 Size: 4178
 Filename: enigma2-plugin-extensions-dvdbackup-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1585,7 +1585,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: af4d19087e237c71ef3c37ae293ef3da
+MD5Sum: afc9d4b8e0b00c685f336f08334bdcff
 Size: 4726
 Filename: enigma2-plugin-extensions-dvdbackup-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1600,8 +1600,8 @@ Depends: dvdbackup, libdvdread4
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d9dcf8352e38d8dee4a0f6b57cdc61a3
-Size: 15686
+MD5Sum: a2091016bc9fc28632d5c56b4016acfc
+Size: 15640
 Filename: enigma2-plugin-extensions-dvdbackup_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-dvdbackup
@@ -1610,14 +1610,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 5ead90a1722fb72b0ecbf17747fedd10
+MD5Sum: 8b93a5a17b936155f558bb911fd40483
 Size: 21854
-Filename: enigma2-plugin-extensions-dvdburn-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-extensions-dvdburn-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn (source files)
 OE: enigma2
@@ -1625,14 +1625,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, enigma2, mjpegtools, python-imaging, replex
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: ef215bf9a5ab82143502a02b479b95bd
-Size: 796612
-Filename: enigma2-plugin-extensions-dvdburn_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: fd0570d59bf81e6a05ee31a1e5e6fabe
+Size: 796594
+Filename: enigma2-plugin-extensions-dvdburn_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
 OE: enigma2
@@ -1640,14 +1640,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 3617c228a08e4195164b4f8bb1be8a74
+MD5Sum: 9256ec8952452d65f4055830c27d449e
 Size: 1876
-Filename: enigma2-plugin-extensions-dvdplayer-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-extensions-dvdplayer-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer (source files)
 OE: enigma2
@@ -1655,14 +1655,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: ab7d4ef254119cbda5dcbaf8800054da
-Size: 2544
-Filename: enigma2-plugin-extensions-dvdplayer_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 2f31262bed47579504633095536f33b6
+Size: 2540
+Filename: enigma2-plugin-extensions-dvdplayer_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
 OE: enigma2
@@ -1675,8 +1675,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 592c363e83c49fefa96ee5905bd2ba9e
-Size: 10542
+MD5Sum: 592e2009dd97bdcc54ffcadb53680734
+Size: 10558
 Filename: enigma2-plugin-extensions-emailclient-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-emailclient (translations)
@@ -1690,7 +1690,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d417e9a0be26d6df4cec41babbe0397f
+MD5Sum: 884a947843fab25b7158311d3a94ed48
 Size: 15486
 Filename: enigma2-plugin-extensions-emailclient-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1705,8 +1705,8 @@ Depends: python-email, python-pyopenssl, python-shell, python-textutils, python-
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 4d2028677641def1669dbfbd9d36f017
-Size: 34088
+MD5Sum: 7a34b00d528c073748dc9b55c58a8beb
+Size: 34056
 Filename: enigma2-plugin-extensions-emailclient_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-emailclient
@@ -1720,8 +1720,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: fbf9791f7a48599109f747c55cdb5438
-Size: 9296
+MD5Sum: 94345c1f6f28113f8d49b73b2413ed83
+Size: 9300
 Filename: enigma2-plugin-extensions-emission-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-emission (source files)
@@ -1735,8 +1735,8 @@ Depends: python-transmissionrpc
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 1724e1ca998e4ef0392e6acc216cb063
-Size: 13314
+MD5Sum: ea21ed7070daefd30f5b2bce4688cee4
+Size: 13310
 Filename: enigma2-plugin-extensions-emission_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-emission
@@ -1750,8 +1750,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: c2c34628e4ebc7bafd55b096417a897c
-Size: 29502
+MD5Sum: 70c3bcbb79a5e8c9e0d355c0780bcab3
+Size: 29490
 Filename: enigma2-plugin-extensions-epgrefresh-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgrefresh (translations)
@@ -1765,8 +1765,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: aabbfe272e8333257e52406610796c74
-Size: 17966
+MD5Sum: a8f05dd49bc8faf4e5dc02bd05e6f0ba
+Size: 17970
 Filename: enigma2-plugin-extensions-epgrefresh-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgrefresh (source files)
@@ -1780,8 +1780,8 @@ Depends: enigma2-plugin-systemplugins-mphelp, python-codecs, python-lang, python
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d64a81c816e581068fa6f5c6fae1eb16
-Size: 56808
+MD5Sum: 1041300e1a757f71333e4690949a13ac
+Size: 56764
 Filename: enigma2-plugin-extensions-epgrefresh_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgrefresh
@@ -1795,8 +1795,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: c7f9c972dc947cc7734e643b82570d97
-Size: 21946
+MD5Sum: 68fd52f284948b03bd8ee4a0169f5d7e
+Size: 21956
 Filename: enigma2-plugin-extensions-epgsearch-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgsearch (translations)
@@ -1810,8 +1810,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9a3c11b7a5b6d9b5b111e2534a9487e2
-Size: 13322
+MD5Sum: cf2216f1a1cc5168ebf98cabf59b7102
+Size: 13318
 Filename: enigma2-plugin-extensions-epgsearch-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgsearch (source files)
@@ -1825,8 +1825,8 @@ Depends: enigma2-plugin-systemplugins-toolkit
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d59582ad6bb09816a7d596d507145032
-Size: 38672
+MD5Sum: 298db65a375c9ac7a97f82e5b738c8bf
+Size: 38668
 Filename: enigma2-plugin-extensions-epgsearch_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-epgsearch
@@ -1835,14 +1835,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 0b86515093cbb985bdd7767a93041775
-Size: 4796
-Filename: enigma2-plugin-extensions-epgtranslator-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: a32bb37b4611611e91d215d64537632a
+Size: 4808
+Filename: enigma2-plugin-extensions-epgtranslator-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-epgtranslator (translations)
 OE: enigma2-oe-alliance-plugins
@@ -1850,14 +1850,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 8b0829d60331781ce50f0450cd2f5752
-Size: 24506
-Filename: enigma2-plugin-extensions-epgtranslator-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 061a9d11ec700e75e299d3c8b4503911
+Size: 24492
+Filename: enigma2-plugin-extensions-epgtranslator-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-epgtranslator (source files)
 OE: enigma2-oe-alliance-plugins
@@ -1865,14 +1865,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 6a661a31385d1145c363830cf4cecc64
-Size: 1587056
-Filename: enigma2-plugin-extensions-epgtranslator_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 9db3a8ca38e329cb8e8ee735af41c6c3
+Size: 1587048
+Filename: enigma2-plugin-extensions-epgtranslator_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-epgtranslator
 OE: enigma2-oe-alliance-plugins
@@ -1885,7 +1885,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0c4803e1e81474b81fdf241c251ae428
+MD5Sum: cac340d14b83118caad5f717428346de
 Size: 15150
 Filename: enigma2-plugin-extensions-fancontrol2-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1900,8 +1900,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 50f855fd9d1740812f577648b8621a35
-Size: 15510
+MD5Sum: 01e00610418b6615dcd21df517861dbd
+Size: 15502
 Filename: enigma2-plugin-extensions-fancontrol2-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fancontrol2 (source files)
@@ -1915,8 +1915,8 @@ Depends: hdparm, smartmontools
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0dbddef3acd360ebb31c867ba0146c99
-Size: 97236
+MD5Sum: db646fef3da9758ce5b58fcbd62edeef
+Size: 97232
 Filename: enigma2-plugin-extensions-fancontrol2_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fancontrol2
@@ -1925,14 +1925,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-fempa-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 875f503aabfa4029d53aac2320e51c9a
+MD5Sum: d91dd7a046bf794439e5817c1cbfa5ff
 Size: 2406
-Filename: enigma2-plugin-extensions-fempa-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-extensions-fempa-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-fempa (source files)
 OE: enigma2-oe-alliance-plugins
@@ -1940,14 +1940,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-fempa
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 4372fbcbaee06ad28b12aa64fbd6472e
+MD5Sum: 3da033f997d7752376e6e6e2ba5709d8
 Size: 409092
-Filename: enigma2-plugin-extensions-fempa_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-extensions-fempa_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-fempa
 OE: enigma2-oe-alliance-plugins
@@ -1960,7 +1960,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 51bb2e13c001d95981bdbde3b6d65d15
+MD5Sum: e9da1ff7ad655818586f584c0c66d52c
 Size: 3654
 Filename: enigma2-plugin-extensions-filebrowser-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1974,7 +1974,7 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9ccd3da49f14f2e8cf0b4fa5ca3bfd0d
+MD5Sum: 6bbf54827303fe3b625b3345328924a6
 Size: 5496
 Filename: enigma2-plugin-extensions-filebrowser_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -1989,7 +1989,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 098d4220d521c16e1312c502043c513b
+MD5Sum: 0490d42b30112ce68259abc86475b871
 Size: 4948
 Filename: enigma2-plugin-extensions-flashexpander-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2004,8 +2004,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: a9667bf702c39f33eda824b0b3c4e2c7
-Size: 4212
+MD5Sum: 470b97f4a961a7ea809ceedbad03e5d6
+Size: 4216
 Filename: enigma2-plugin-extensions-flashexpander-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-flashexpander (source files)
@@ -2018,8 +2018,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 16ed6565913617466cf73de0e7acb235
-Size: 14054
+MD5Sum: cebf99c152845ff45cb4c0144f43119d
+Size: 14058
 Filename: enigma2-plugin-extensions-flashexpander_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-flashexpander
@@ -2033,8 +2033,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 704fdf8709f037de08993068156a27d7
-Size: 17808
+MD5Sum: 214ccdbf7babf578852802fcf405540e
+Size: 17802
 Filename: enigma2-plugin-extensions-fritzcall-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fritzcall (translations)
@@ -2048,8 +2048,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9dd6abdc70834da5f146fae768976896
-Size: 48984
+MD5Sum: 56c9e5ee493810f49204744758ec7551
+Size: 48992
 Filename: enigma2-plugin-extensions-fritzcall-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fritzcall (source files)
@@ -2063,8 +2063,8 @@ Depends: python-html, python-textutils, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 1b0639ca7a91a520ee0b066503a3a77f
-Size: 300474
+MD5Sum: 5e9e4163ae0916ffc88b6fb38812bc1e
+Size: 300482
 Filename: enigma2-plugin-extensions-fritzcall_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-fritzcall
@@ -2078,8 +2078,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: f48c9e0424c964cff3c23740a224bcc4
-Size: 8746
+MD5Sum: d2df126406debab69ac481c2f6f0c63e
+Size: 8738
 Filename: enigma2-plugin-extensions-ftpbrowser-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ftpbrowser (translations)
@@ -2093,8 +2093,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 48aae641d57faabddcc0fb6bb159493b
-Size: 10358
+MD5Sum: 20ad3fc3eb1b2c126d8d293d0e93252c
+Size: 10360
 Filename: enigma2-plugin-extensions-ftpbrowser-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ftpbrowser (source files)
@@ -2108,8 +2108,8 @@ Depends: enigma2-plugin-systemplugins-toolkit, python-shell, python-twisted-prot
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d7a6d20cee99f5bf827f51ed5b1c110c
-Size: 31694
+MD5Sum: a5a22989451f734a86a011a4cb7fdf50
+Size: 31722
 Filename: enigma2-plugin-extensions-ftpbrowser_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ftpbrowser
@@ -2123,7 +2123,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 4eb5d2b6251dd9ff47088eef8af58c29
+MD5Sum: 905336f132336c839471672403badaea
 Size: 4390
 Filename: enigma2-plugin-extensions-genuinedreambox-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2138,8 +2138,8 @@ Depends: python-twisted-web, python-zlib
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9d0bc8a74c3a9827868da06a7f9e3bb8
-Size: 11638
+MD5Sum: dd69f282aad7d542520559d88c0f0681
+Size: 11612
 Filename: enigma2-plugin-extensions-genuinedreambox_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-genuinedreambox
@@ -2153,8 +2153,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 6a1a1cee22cfcafd865a86096a62ea6a
-Size: 13066
+MD5Sum: e47899f545a76e2bc6a9de3cb89de825
+Size: 13070
 Filename: enigma2-plugin-extensions-googlemaps-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-googlemaps (source files)
@@ -2168,8 +2168,8 @@ Depends: python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7925fc4c8c9ac000a490fdd09cca8e80
-Size: 40624
+MD5Sum: 917b6897750994af0d17609df1c4ea48
+Size: 40634
 Filename: enigma2-plugin-extensions-googlemaps_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-googlemaps
@@ -2183,8 +2183,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: fac2530ee99782cbbe07fc4b1f66897b
-Size: 21234
+MD5Sum: a3ed6d8bbb55aa831a1dcf09bf21a8f1
+Size: 21218
 Filename: enigma2-plugin-extensions-imdb-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-imdb (translations)
@@ -2198,8 +2198,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0894a3bd996ba1a5e7a7551dbb46e0bf
-Size: 12178
+MD5Sum: a2dc00af5ce7613333fddf03535026b7
+Size: 12182
 Filename: enigma2-plugin-extensions-imdb-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-imdb (source files)
@@ -2213,8 +2213,8 @@ Depends: enigma2-plugin-systemplugins-toolkit, python-html, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9dbe1729b9e87cf776eae34928e63e86
-Size: 49476
+MD5Sum: 319cf3aa30148c9d2afb6148e6a6e693
+Size: 49448
 Filename: enigma2-plugin-extensions-imdb_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-imdb
@@ -2228,8 +2228,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 6e2613dfcb24f71ab2ed1aab0df9bf00
-Size: 6810
+MD5Sum: a0255d571f46b344886537a919f4c9c9
+Size: 6814
 Filename: enigma2-plugin-extensions-infobartunerstate-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-infobartunerstate (translations)
@@ -2243,8 +2243,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ae70281fe0cb46c9d71850ceda6e9e65
-Size: 16432
+MD5Sum: e5af36327491e14091fb71d7890ac942
+Size: 16438
 Filename: enigma2-plugin-extensions-infobartunerstate-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-infobartunerstate (source files)
@@ -2258,8 +2258,8 @@ Depends: python-re, python-shell
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: c602faeec297113215a1b12d70ce14ff
-Size: 40902
+MD5Sum: 74763481ba2abcbe082b79031e76573f
+Size: 40904
 Filename: enigma2-plugin-extensions-infobartunerstate_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-infobartunerstate
@@ -2273,8 +2273,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 6f7688fb02aaa9a934be542f61afa91d
-Size: 7386
+MD5Sum: a463833c506314f658c75f6c2ffb5270
+Size: 7370
 Filename: enigma2-plugin-extensions-kiddytimer-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-kiddytimer (translations)
@@ -2288,8 +2288,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: c287efcbc30c8b728e39c5e92ec06c4a
-Size: 8636
+MD5Sum: 0a0dbb3dd410efb4c1dd26172fdd5022
+Size: 8638
 Filename: enigma2-plugin-extensions-kiddytimer-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-kiddytimer (source files)
@@ -2302,8 +2302,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 2c3bb43e3e1ac0c88966be80729ae097
-Size: 92914
+MD5Sum: 46e5f8802988820dadd9677cdab11947
+Size: 92886
 Filename: enigma2-plugin-extensions-kiddytimer_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-kiddytimer
@@ -2312,15 +2312,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-lcd4linux-dbg
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Recommends: libc6-dbg, libusb-0.1-dbg
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: a4d10b254d03bf12084b2fc5de04d99e
-Size: 18536
-Filename: enigma2-plugin-extensions-lcd4linux-dbg_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 65383eb78170cf0c4e9885221f059129
+Size: 18560
+Filename: enigma2-plugin-extensions-lcd4linux-dbg_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-lcd4linux (debug)
 OE: enigma2-oe-alliance-plugins
@@ -2328,14 +2328,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-lcd4linux-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: f060cab1c753a788eaa907e7cfbe66cc
-Size: 78556
-Filename: enigma2-plugin-extensions-lcd4linux-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: c232da2dd644a4e13b8ec31c5ec3f639
+Size: 78576
+Filename: enigma2-plugin-extensions-lcd4linux-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-lcd4linux (translations)
 OE: enigma2-oe-alliance-plugins
@@ -2343,14 +2343,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-lcd4linux-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 11ab03ec44925cf6fedf89c47fd34f59
-Size: 115498
-Filename: enigma2-plugin-extensions-lcd4linux-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 759cbf73197615d4e7fe2ca4da9d962c
+Size: 115446
+Filename: enigma2-plugin-extensions-lcd4linux-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-lcd4linux (source files)
 OE: enigma2-oe-alliance-plugins
@@ -2358,14 +2358,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-lcd4linux
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins, enigma2-plugin-extensions-lcd4linux-src, lcd4linux, libc6 (>= 2.30), libusb-0.1-4 (>= 0.1.5), python-codecs, python-ctypes, python-datetime, python-email, python-icalendar, python-image, python-imaging, python-mutagen, python-pyusb, python-shell, python-simplejson, python-soco, python-subprocess, python-textutils, python-zlib
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: c62833e658be772a8cc765fbc126a273
-Size: 1047816
-Filename: enigma2-plugin-extensions-lcd4linux_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 6527f4697a0edab7abe1e958aae6ec77
+Size: 1047514
+Filename: enigma2-plugin-extensions-lcd4linux_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-lcd4linux
 OE: enigma2-oe-alliance-plugins
@@ -2378,7 +2378,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: bc0b0b06468120b67fc7d21b62101304
+MD5Sum: f8bdc0ef47a7580439b3df8b2f9aeeb2
 Size: 3442
 Filename: enigma2-plugin-extensions-logomanager-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2393,8 +2393,8 @@ Depends: enigma2-plugin-extensions-filebrowser
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 744aea971fbb3534bba6707eca331bd4
-Size: 8590
+MD5Sum: 7f714dfa1c161eb7bbba46696a0b7806
+Size: 8582
 Filename: enigma2-plugin-extensions-logomanager_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-logomanager
@@ -2408,8 +2408,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 82141c849674adcdb9937ab284a715ce
-Size: 4534
+MD5Sum: 8353df1793876e20ecdcf20d470525c2
+Size: 4526
 Filename: enigma2-plugin-extensions-mediadownloader-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mediadownloader (translations)
@@ -2423,7 +2423,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 4da6940e3d92b6ddf06b7554f9604fdd
+MD5Sum: c616009d83082d39527998a236abb9c0
 Size: 6062
 Filename: enigma2-plugin-extensions-mediadownloader-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2438,8 +2438,8 @@ Depends: python-netclient, python-shell, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: c8e5ac1be5ecd762621a88e885ed4a82
-Size: 11764
+MD5Sum: 17c2e85adbeed957a46c6a924104fac4
+Size: 11752
 Filename: enigma2-plugin-extensions-mediadownloader_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mediadownloader
@@ -2448,14 +2448,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 6e66bc2166997d3d8b01f2400169f0c1
-Size: 11110
-Filename: enigma2-plugin-extensions-mediaplayer-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 6b940d77f4f754d72d1559be322f5c03
+Size: 11106
+Filename: enigma2-plugin-extensions-mediaplayer-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer (source files)
 OE: enigma2
@@ -2463,14 +2463,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: ab60fa0e4b2f909aebea7f60e0442ef0
-Size: 20514
-Filename: enigma2-plugin-extensions-mediaplayer_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: c88b61f877914cab05d2c3d78425527f
+Size: 20510
+Filename: enigma2-plugin-extensions-mediaplayer_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
 OE: enigma2
@@ -2478,14 +2478,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 52453dc7bfa713bffd5b46e6d920a1be
+MD5Sum: 9f6c575d5013da14ea4fa9f36b82a2ee
 Size: 2430
-Filename: enigma2-plugin-extensions-mediascanner-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-extensions-mediascanner-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner (source files)
 OE: enigma2
@@ -2493,14 +2493,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: c13e1a268d0a42fabfa8c0b4874c739b
+MD5Sum: fb6cc7df9e038d7e7cc5395561d63ec5
 Size: 5962
-Filename: enigma2-plugin-extensions-mediascanner_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-extensions-mediascanner_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
 OE: enigma2
@@ -2513,8 +2513,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 3f27ac966afde8cd8b74410339fe9844
-Size: 4104
+MD5Sum: 0a745e6a0a702d4f08502e0d2c101e66
+Size: 4108
 Filename: enigma2-plugin-extensions-menusort-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-menusort (source files)
@@ -2528,8 +2528,8 @@ Depends: python-codecs, python-lang, python-shell, python-xml
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ce82588e11c484ddb2bc34003c0d8594
-Size: 9498
+MD5Sum: 0b1f47071e737459d94a731927c53d88
+Size: 9490
 Filename: enigma2-plugin-extensions-menusort_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-menusort
@@ -2543,8 +2543,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ce59d9ff39ace835b1ee78dadb9d0a88
-Size: 8378
+MD5Sum: 1610f640486a26374e0b2e0254a965ab
+Size: 8374
 Filename: enigma2-plugin-extensions-merlinmusicplayer-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinmusicplayer (translations)
@@ -2558,8 +2558,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 2452dcbdb52c4b986d999a5b3bf21de5
-Size: 22314
+MD5Sum: 0be12d6b37a6932ec12a4340d48b58f7
+Size: 22318
 Filename: enigma2-plugin-extensions-merlinmusicplayer-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinmusicplayer (source files)
@@ -2573,8 +2573,8 @@ Depends: python-mutagen, python-sqlite3, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 00a8375215f8240b081a609b98c9aa6d
-Size: 67906
+MD5Sum: a36259e47e08ac0a56cca62edeac6bde
+Size: 67938
 Filename: enigma2-plugin-extensions-merlinmusicplayer_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-merlinmusicplayer
@@ -2588,8 +2588,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ac3bc32e674716fdde6d6b0810626728
-Size: 8260
+MD5Sum: ee56320f569fb4d58c7b5aa0fb0c3fe0
+Size: 8240
 Filename: enigma2-plugin-extensions-moviecut-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-moviecut (translations)
@@ -2603,8 +2603,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: c7d708de4532feee4668d5560f90b7da
-Size: 4278
+MD5Sum: 66a10f40f5d9ef429432a6865952f983
+Size: 4276
 Filename: enigma2-plugin-extensions-moviecut-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-moviecut (source files)
@@ -2618,8 +2618,8 @@ Depends: libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0)
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 10798a1807732662456c03c434081a5c
-Size: 21672
+MD5Sum: c2f4ef46f0c3ad9d5a7487a489b4d8a0
+Size: 21634
 Filename: enigma2-plugin-extensions-moviecut_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-moviecut
@@ -2633,8 +2633,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 27e2467375d3234a97cfd967ababa89f
-Size: 1902
+MD5Sum: cf7e0be30ac59cdc66b4f4c0f5b543ad
+Size: 1906
 Filename: enigma2-plugin-extensions-moviesearch-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-moviesearch (source files)
@@ -2648,8 +2648,8 @@ Depends: enigma2-plugin-systemplugins-toolkit
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 36d7d38f0bd4da7e10f86d8e06431682
-Size: 2820
+MD5Sum: 5a918bcad49ffe41c83d583f55f1d042
+Size: 2826
 Filename: enigma2-plugin-extensions-moviesearch_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-moviesearch
@@ -2663,8 +2663,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: f5e4c5f015726652a922fb868d9c5e12
-Size: 19606
+MD5Sum: 0e5b427c18801434e295bb6bec5eb996
+Size: 19632
 Filename: enigma2-plugin-extensions-mytube-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mytube (translations)
@@ -2678,8 +2678,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d7e17f40002ddf903f1f76fcc838cdaf
-Size: 25218
+MD5Sum: 4b81f83a9ea731635ccc06901654a794
+Size: 25206
 Filename: enigma2-plugin-extensions-mytube-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mytube (source files)
@@ -2693,8 +2693,8 @@ Depends: gst-plugins-good-flv, python-ctypes, python-gdata, python-google-api-cl
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: de0b36aff8c383fcb74cf07d93d07e19
-Size: 330518
+MD5Sum: b143e814017d4a8d8164346bba3893f8
+Size: 330462
 Filename: enigma2-plugin-extensions-mytube_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-mytube
@@ -2708,7 +2708,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9d4755d6d51afd40fa4b92afb2114283
+MD5Sum: 5d7ddbaed110a3e03563f3685869f153
 Size: 8700
 Filename: enigma2-plugin-extensions-netcaster-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2723,7 +2723,7 @@ Depends: gst-plugins-good-icydemux
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: a08b2c955b7f23fb9ea7446c03abab51
+MD5Sum: 46ae13befa9ae362ed54bf063e77ea7e
 Size: 14640
 Filename: enigma2-plugin-extensions-netcaster_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2738,8 +2738,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0dcd820fa33cc00b46e106b9fa1d7141
-Size: 5164
+MD5Sum: 3950f31146654cea56b7c32c724ecfe3
+Size: 5156
 Filename: enigma2-plugin-extensions-ofdb-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ofdb (translations)
@@ -2753,7 +2753,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 70258f91509c28711cea043217816da7
+MD5Sum: e8d1bd6ac36686f59d81659302792b9f
 Size: 5660
 Filename: enigma2-plugin-extensions-ofdb-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2768,8 +2768,8 @@ Depends: python-html, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 1831e965eb2bac0bd901977bbb2d5203
-Size: 25494
+MD5Sum: 11a27e8e656ccf2fc913ff5d6fcb5260
+Size: 25468
 Filename: enigma2-plugin-extensions-ofdb_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-ofdb
@@ -2778,14 +2778,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-ondemand-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 1b191ab4187f901c49a4e974a325a059
-Size: 10974
-Filename: enigma2-plugin-extensions-ondemand-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 4451a7a4e5c02050b37f391f6264b82c
+Size: 10954
+Filename: enigma2-plugin-extensions-ondemand-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-ondemand (translations)
 OE: enigma2-oe-alliance-plugins
@@ -2793,14 +2793,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-ondemand-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 0b848a27b7525e84876fec4282e83dba
-Size: 39388
-Filename: enigma2-plugin-extensions-ondemand-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: ae74a24b7c3917b86dfdf9823a6076c1
+Size: 39408
+Filename: enigma2-plugin-extensions-ondemand-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-ondemand (source files)
 OE: enigma2-oe-alliance-plugins
@@ -2808,14 +2808,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-ondemand
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins, python-beautifulsoup4, python-dnspython, python-lxml, python-pyamf, python-simplejson
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 161d2607ee56fbf0325a2d248bb37bc1
-Size: 764488
-Filename: enigma2-plugin-extensions-ondemand_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 2104cd11be379dd030db01ff92034f68
+Size: 764526
+Filename: enigma2-plugin-extensions-ondemand_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-ondemand
 OE: enigma2-oe-alliance-plugins
@@ -2828,7 +2828,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 57e7eabaf940f83b5279ca26116776cf
+MD5Sum: 9b98e6b09e87dcd896027c400a79a855
 Size: 3832
 Filename: enigma2-plugin-extensions-orfat-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2843,8 +2843,8 @@ Depends: enigma2-plugin-extensions-vlcplayer, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 713c6d8170ba6cd3ebc8680292318d9c
-Size: 19382
+MD5Sum: e1fda4ebadf86b717e2ae72680b4648a
+Size: 19334
 Filename: enigma2-plugin-extensions-orfat_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-orfat
@@ -2858,8 +2858,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 2c1d414a6d2d9e2dab666b436cd9099a
-Size: 3094
+MD5Sum: 75b72c00892392e2528f9a855996fca9
+Size: 3090
 Filename: enigma2-plugin-extensions-orfteletext-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-orfteletext (source files)
@@ -2872,8 +2872,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: f40f6c6c3fa34866ec838e8bcf6aea9e
-Size: 4726
+MD5Sum: 5e7df47f416813e449a6fb36ff2b5b44
+Size: 4724
 Filename: enigma2-plugin-extensions-orfteletext_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-orfteletext
@@ -2887,8 +2887,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9deb02e0aab1986db38194cc2c8ab70b
-Size: 4268
+MD5Sum: e5483cfcaa2e82a1c72bc79042d866aa
+Size: 4264
 Filename: enigma2-plugin-extensions-permanentclock-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-permanentclock (translations)
@@ -2902,7 +2902,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 06ab54a8c43ad673aa57a2e7309be979
+MD5Sum: 5a56cce6880c725518da6e1aee413140
 Size: 5190
 Filename: enigma2-plugin-extensions-permanentclock-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2916,7 +2916,7 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: fcb164c0790747c35dc3615776bd9068
+MD5Sum: 70ee293f640e649d5f3ed47b2a749cb9
 Size: 28938
 Filename: enigma2-plugin-extensions-permanentclock_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2926,14 +2926,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: efc6556d5ac72cc0c71a63d9fbb06c03
-Size: 6666
-Filename: enigma2-plugin-extensions-pictureplayer-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 50798665cfac7ba92b66f3d383d458af
+Size: 6662
+Filename: enigma2-plugin-extensions-pictureplayer-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer (source files)
 OE: enigma2
@@ -2941,14 +2941,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: b5d341b67e0090c8fb26120050a00850
-Size: 27054
-Filename: enigma2-plugin-extensions-pictureplayer_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 3c9302b8ffaf5fffe898ea145603097a
+Size: 27062
+Filename: enigma2-plugin-extensions-pictureplayer_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
@@ -2961,8 +2961,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: f8b1ed093fc05e81f9ef58dfa850b4e7
-Size: 3936
+MD5Sum: 86b346488685df01e131e1ee3614eadc
+Size: 3940
 Filename: enigma2-plugin-extensions-pluginhider-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-pluginhider (translations)
@@ -2976,7 +2976,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ce9f32d0539c644f2d07bee849c0e5ef
+MD5Sum: aa7ebb515ec669b4d5d805f40be752d1
 Size: 3632
 Filename: enigma2-plugin-extensions-pluginhider-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -2991,8 +2991,8 @@ Depends: python-lang
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7eba4d523e328c85895c74c16f0931cc
-Size: 9094
+MD5Sum: d8ebe24e2f502154a96e5a48fc7a389b
+Size: 9086
 Filename: enigma2-plugin-extensions-pluginhider_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-pluginhider
@@ -3006,7 +3006,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7721e6ad5dd1c4068162856683a1af8c
+MD5Sum: c621b52c72d26711394419dae3f1406e
 Size: 4688
 Filename: enigma2-plugin-extensions-pluginsort-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -3021,8 +3021,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: f1a932c24f5f927f689ed85c15e6d97e
-Size: 6444
+MD5Sum: a45f0f37078beaceeceaf350cc33f873
+Size: 6446
 Filename: enigma2-plugin-extensions-pluginsort-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-pluginsort (source files)
@@ -3036,8 +3036,8 @@ Depends: enigma2-plugin-systemplugins-mphelp, python-codecs, python-lang, python
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: cc196f0375f3c9b83b6207c0f3d33d4e
-Size: 13750
+MD5Sum: 04fc9ec6e958e0def4bbf8cbbf6f2cc6
+Size: 13734
 Filename: enigma2-plugin-extensions-pluginsort_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-pluginsort
@@ -3051,8 +3051,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 43b56422b4f2837bca550dbe9fca5c5b
-Size: 4350
+MD5Sum: 14c7d0ffdf062472a0f8ae92f1f32c6d
+Size: 4340
 Filename: enigma2-plugin-extensions-podcast-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-podcast (translations)
@@ -3066,8 +3066,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 6e106a8c6909924ca36907a283992fb5
-Size: 5364
+MD5Sum: b78b045800025d5b9cb1662f2be225ee
+Size: 5362
 Filename: enigma2-plugin-extensions-podcast-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-podcast (source files)
@@ -3081,8 +3081,8 @@ Depends: python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 14203e82558853b75582f0945222019c
-Size: 15232
+MD5Sum: 54210241b9f8f6aac1fd1eb4d9da13f0
+Size: 15216
 Filename: enigma2-plugin-extensions-podcast_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-podcast
@@ -3096,8 +3096,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 50ee07902fe2fa5ceb37c20d030aae3f
-Size: 6074
+MD5Sum: 36b1effbfb5ec4e7eb2cb566bc5a760c
+Size: 6070
 Filename: enigma2-plugin-extensions-pushservice-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-pushservice (translations)
@@ -3111,8 +3111,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: df3699034c52d19426ceb94bef5e5abe
-Size: 25046
+MD5Sum: 6af2636b7745f94078edcd53a2a703e6
+Size: 25050
 Filename: enigma2-plugin-extensions-pushservice-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-pushservice (source files)
@@ -3126,8 +3126,8 @@ Depends: openssl, python-email, python-io, python-pyopenssl, python-twisted-core
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: e8e688083937502097484aace0498624
-Size: 41816
+MD5Sum: f2d22d480c4629c47dc9a69a902192d5
+Size: 41852
 Filename: enigma2-plugin-extensions-pushservice_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-pushservice
@@ -3141,8 +3141,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: c2a8cccc8d32b38454d1f7163abc75ee
-Size: 5896
+MD5Sum: 8f6338ced92ef0043a37d4148d8e3a81
+Size: 5894
 Filename: enigma2-plugin-extensions-quickbutton-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-quickbutton (translations)
@@ -3156,7 +3156,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: a89eb44502d9375b88dc8560307f5947
+MD5Sum: e65508500da764fdfb5904887e8f5dde
 Size: 4192
 Filename: enigma2-plugin-extensions-quickbutton-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -3170,8 +3170,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 72c1f1b2b8af7936c85ec7d8a30e64ea
-Size: 13228
+MD5Sum: d315b2e49394833afd787cf3d321a421
+Size: 13212
 Filename: enigma2-plugin-extensions-quickbutton_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-quickbutton
@@ -3185,7 +3185,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 4cb8b09089538a04154bed8cd2c36bd2
+MD5Sum: 1b26eca396f1a5cd5a6bcd9292b724f7
 Size: 1766
 Filename: enigma2-plugin-extensions-reconstructapsc-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -3199,8 +3199,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 4cee443fbdb005693fddb70771f847f9
-Size: 2444
+MD5Sum: d56379976991eae1e66bca0398f4476f
+Size: 2446
 Filename: enigma2-plugin-extensions-reconstructapsc_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-reconstructapsc
@@ -3209,14 +3209,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-remotechannelstreamconverter-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: cc00ef4f8ed2050da77ec1b4e361e894
-Size: 7294
-Filename: enigma2-plugin-extensions-remotechannelstreamconverter-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: ebbdfdf2c3f398950cf01bf5d1fa11e3
+Size: 7312
+Filename: enigma2-plugin-extensions-remotechannelstreamconverter-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-remotechannelstreamconverter (translations)
 OE: enigma2-oe-alliance-plugins
@@ -3224,14 +3224,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-remotechannelstreamconverter-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 0cf0f016571264541de9fb6f1950a2b6
+MD5Sum: c2dc3d9903c630cf1d7c64c7d1533e58
 Size: 7110
-Filename: enigma2-plugin-extensions-remotechannelstreamconverter-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-extensions-remotechannelstreamconverter-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-remotechannelstreamconverter (source files)
 OE: enigma2-oe-alliance-plugins
@@ -3239,15 +3239,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-remotechannelstreamconverter
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins, python-shell
 Replaces: enigma2-plugin-extensions-remotestreamconvert
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 474ecc1f7d351ed25b95e0525ae5a79b
-Size: 18390
-Filename: enigma2-plugin-extensions-remotechannelstreamconverter_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: bde14889c6d8bbaae3ebf4b791a564ff
+Size: 18428
+Filename: enigma2-plugin-extensions-remotechannelstreamconverter_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-remotechannelstreamconverter
 OE: enigma2-oe-alliance-plugins
@@ -3260,8 +3260,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0a8e478921c107923576e950f737f91d
-Size: 5886
+MD5Sum: e0909da61e0311bed0064501bf9dc40d
+Size: 5882
 Filename: enigma2-plugin-extensions-remotetimer-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-remotetimer (source files)
@@ -3275,8 +3275,8 @@ Depends: python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ac45b6e6e60388ee6fd53cfcabcbf1ae
-Size: 10178
+MD5Sum: b93a026e0c88a33ef3fcc54d9832f354
+Size: 10174
 Filename: enigma2-plugin-extensions-remotetimer_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-remotetimer
@@ -3290,8 +3290,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 256ca28aad28a1eead53b46287d85400
-Size: 7364
+MD5Sum: 42d96f9ba8f66a15a9cf7d2d9ed0ba25
+Size: 7352
 Filename: enigma2-plugin-extensions-seriesplugin-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-seriesplugin (translations)
@@ -3305,8 +3305,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 5a31d5227d93f072271842b59af55ebf
-Size: 32238
+MD5Sum: 7ab210d95a906742e710dd744ec19268
+Size: 32244
 Filename: enigma2-plugin-extensions-seriesplugin-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-seriesplugin (source files)
@@ -3320,8 +3320,8 @@ Depends: python-difflib, python-json, python-re, python-xml, python-xmlrpc
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 49bd6eb13b8b0a53105689eaf7233488
-Size: 95384
+MD5Sum: 20a518f85708b07cc6c95117c75dcfe7
+Size: 95320
 Filename: enigma2-plugin-extensions-seriesplugin_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-seriesplugin
@@ -3335,8 +3335,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ff2aea88ff8145e252d2f3e62c498644
-Size: 8546
+MD5Sum: 77cd14779faeb75d35dadbebad60b957
+Size: 8526
 Filename: enigma2-plugin-extensions-shoutcast-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-shoutcast (translations)
@@ -3350,8 +3350,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 3587577c9594934f2ba16c4346908c2a
-Size: 12652
+MD5Sum: 672020af1e06b4f09cd49e30c57d9cad
+Size: 12650
 Filename: enigma2-plugin-extensions-shoutcast-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-shoutcast (source files)
@@ -3365,8 +3365,8 @@ Depends: python-twisted-web, streamripper
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: a07d6887f113c84f7ee1e71164af9e6b
-Size: 34374
+MD5Sum: 11db8764f69fd521b87c63f6a7c23c11
+Size: 34412
 Filename: enigma2-plugin-extensions-shoutcast_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-shoutcast
@@ -3380,8 +3380,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: a22f71f0708e8c8d1f458dda8460502a
-Size: 6206
+MD5Sum: abe076e07696e72943febba3dab65f71
+Size: 6198
 Filename: enigma2-plugin-extensions-showclock-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-showclock (translations)
@@ -3395,7 +3395,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: bc33e2b336f4c15d6600284717494684
+MD5Sum: b59640894a2d3846059d2f2100e00326
 Size: 5230
 Filename: enigma2-plugin-extensions-showclock-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -3409,8 +3409,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ab22492f0e9dcc50bfa2fc4a8f2f0b26
-Size: 14162
+MD5Sum: 2ad1bd5ab3f8f81b2a9438ddb552cee6
+Size: 14218
 Filename: enigma2-plugin-extensions-showclock_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-showclock
@@ -3419,15 +3419,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-dbg
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Recommends: gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libc6-dbg, libcrypt-dbg, libcrypto10-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libfreetype-dbg, libfribidi-dbg, libgcc-s-dbg, libgif-dbg, libglib-2.0-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-dbg, libpng16-dbg, libpython2-dbg, libsigc-2.0-dbg, libssl10-dbg, libstdc++-dbg, libtuxtxt-dbg, libtuxtxt32bpp-dbg, libudfread-dbg, libxml2-dbg
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 3f459be517feac9575d0e287ee397856
-Size: 7929372
-Filename: enigma2-plugin-extensions-socketmmi-dbg_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: bf3fbca7535cf106832f363aee48c8df
+Size: 7928380
+Filename: enigma2-plugin-extensions-socketmmi-dbg_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
 OE: enigma2
@@ -3435,14 +3435,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 3eb2608c62b2d9699a035c349475f043
+MD5Sum: de15a88981f43f4dcd3ba3ec5d0a0459
 Size: 1496
-Filename: enigma2-plugin-extensions-socketmmi-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-extensions-socketmmi-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (source files)
 OE: enigma2
@@ -3450,14 +3450,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 251b633d7dc3aada5f68dd223455a73e
-Size: 284750
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 375afd99d9c8503a8637435881c4a839
+Size: 284768
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
 OE: enigma2
@@ -3465,14 +3465,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2, libc6 (>= 2.30), libgcc1 (>= 9.2.0), libstdc++6 (>= 9.2.0), libudfread0 (>= 1.0.0+git108+b3e6936), libxml2 (>= 2.9.9)
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 098a94e7e04f602fbc0a17e03c50baf6
-Size: 9116
-Filename: enigma2-plugin-extensions-socketmmi_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: d1da30c842334937ecccf98deb3fb816
+Size: 9090
+Filename: enigma2-plugin-extensions-socketmmi_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
 OE: enigma2
@@ -3480,14 +3480,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-streamtv-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 05e7170fd07891ade386820844bdc4b3
+MD5Sum: c11ad0ec9b9fe4a546af1dc55df1953c
 Size: 4932
-Filename: enigma2-plugin-extensions-streamtv-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-extensions-streamtv-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-streamtv (source files)
 OE: enigma2-oe-alliance-plugins
@@ -3495,14 +3495,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-streamtv
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins, rtmpdump
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 8f4fe2e5d6eb057e277f6c08c6723de6
-Size: 117346
-Filename: enigma2-plugin-extensions-streamtv_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 3ae3f26995d784771b77c86a931dc21d
+Size: 117330
+Filename: enigma2-plugin-extensions-streamtv_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-streamtv
 OE: enigma2-oe-alliance-plugins
@@ -3515,8 +3515,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 4ad8fdd697a0eaeba67d7901f326f8b2
-Size: 57286
+MD5Sum: 08e4aaccf76a46e7e3efddc85f1af543
+Size: 57290
 Filename: enigma2-plugin-extensions-subsdownloader2-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-subsdownloader2 (source files)
@@ -3530,8 +3530,8 @@ Depends: enigma2-plugin-extensions-dvdplayer, enigma2-plugin-extensions-picturep
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: f8e0a8b3188737fe71b81fbc756a8258
-Size: 129352
+MD5Sum: a19d1fd5af607aa459076ae5813d39e0
+Size: 129308
 Filename: enigma2-plugin-extensions-subsdownloader2_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-subsdownloader2
@@ -3545,8 +3545,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 437d9a997194b212bc702fd5625579c8
-Size: 4924
+MD5Sum: 5151ded058b5ad3e60c9713c49dfec73
+Size: 4920
 Filename: enigma2-plugin-extensions-tageditor-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-tageditor (translations)
@@ -3560,7 +3560,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 946330a60b3bdaee161554a3b79be512
+MD5Sum: 15122d111bc0217e0e47d656df84cde2
 Size: 4040
 Filename: enigma2-plugin-extensions-tageditor-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -3574,8 +3574,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: af6629c14423794a2c2b419a43536a50
-Size: 10178
+MD5Sum: eafbd42cae400e5c4fa74400a65c5642
+Size: 10160
 Filename: enigma2-plugin-extensions-tageditor_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-tageditor
@@ -3584,14 +3584,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tmdb-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 0ad4429277ece6bcdce78499ec96c99d
-Size: 3468
-Filename: enigma2-plugin-extensions-tmdb-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: a0d2dba9942ae3f271d8e7251fb1dd52
+Size: 3480
+Filename: enigma2-plugin-extensions-tmdb-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-tmdb (translations)
 OE: enigma2-oe-alliance-plugins
@@ -3599,14 +3599,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tmdb-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: b3a66e4cb38a8a17b4a91dba075bb7c9
+MD5Sum: 8d3bbcfc09a146773b170a4be121217d
 Size: 17514
-Filename: enigma2-plugin-extensions-tmdb-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-extensions-tmdb-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-tmdb (source files)
 OE: enigma2-oe-alliance-plugins
@@ -3614,14 +3614,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tmdb
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins, python-json, python-requests
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: f3cbf7c466acbacb3361126d70e2167c
-Size: 86340
-Filename: enigma2-plugin-extensions-tmdb_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 9b7dc917ba0c9bd0fd4f5b8f690a2192
+Size: 86392
+Filename: enigma2-plugin-extensions-tmdb_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-tmdb
 OE: enigma2-oe-alliance-plugins
@@ -3629,14 +3629,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tunerserver-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: a77c7f2650e5a2fa25e10196a9fb4ea3
-Size: 3848
-Filename: enigma2-plugin-extensions-tunerserver-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 1aa6ab796f03813fe104ad3b90f13356
+Size: 3864
+Filename: enigma2-plugin-extensions-tunerserver-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-tunerserver (translations)
 OE: enigma2-oe-alliance-plugins
@@ -3644,14 +3644,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tunerserver-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: e02858efee2097333316d20b71eebfa6
-Size: 3886
-Filename: enigma2-plugin-extensions-tunerserver-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 4d2cb7b5c364be00a0637ef458ce3317
+Size: 3882
+Filename: enigma2-plugin-extensions-tunerserver-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-tunerserver (source files)
 OE: enigma2-oe-alliance-plugins
@@ -3659,14 +3659,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tunerserver
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 82468da4962e998f0e5a670cf018c90c
-Size: 8252
-Filename: enigma2-plugin-extensions-tunerserver_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 26ff679db1269e59ff6386361f70cefa
+Size: 8260
+Filename: enigma2-plugin-extensions-tunerserver_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: extensions-tunerserver
 OE: enigma2-oe-alliance-plugins
@@ -3674,14 +3674,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tuxboxplugins-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: eb48133f1a29395d30c66fd0e2fe53f0
-Size: 1838
-Filename: enigma2-plugin-extensions-tuxboxplugins-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 9b95777a4f1e17f35b203522f70fa6e0
+Size: 1834
+Filename: enigma2-plugin-extensions-tuxboxplugins-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-tuxboxplugins (source files)
 OE: enigma2
@@ -3689,14 +3689,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-extensions-tuxboxplugins
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 070bc7aadc9afc8284f88e837a557f05
-Size: 4182
-Filename: enigma2-plugin-extensions-tuxboxplugins_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 204a4b08ea0f945a3010226fb66f7294
+Size: 4176
+Filename: enigma2-plugin-extensions-tuxboxplugins_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: extensions-tuxboxplugins
 OE: enigma2
@@ -3709,8 +3709,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 8b5a04059f03a269fb830252911d6ef3
-Size: 6648
+MD5Sum: 629197a58d9cfef6669d4597abde91a4
+Size: 6654
 Filename: enigma2-plugin-extensions-weatherplugin-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-weatherplugin (translations)
@@ -3724,8 +3724,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9efc61676f3cf6498f60915159c1e645
-Size: 8036
+MD5Sum: 3f6765056affb4b5eb75ea7eb620f556
+Size: 8032
 Filename: enigma2-plugin-extensions-weatherplugin-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-weatherplugin (source files)
@@ -3739,8 +3739,8 @@ Depends: python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 17200cf1264ee88590b86df8a7460315
-Size: 56672
+MD5Sum: 8319e569fe03b743cb93de32f85eed2c
+Size: 56684
 Filename: enigma2-plugin-extensions-weatherplugin_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-weatherplugin
@@ -3754,7 +3754,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 8a12df6ccda85e81da18316621e3a7fc
+MD5Sum: 7d87581f14e2ac52af9fe64f9015ffb3
 Size: 12148
 Filename: enigma2-plugin-extensions-webcamviewer-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -3769,8 +3769,8 @@ Depends: python-shell, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0302cd824c1f8b38727650c3af95705c
-Size: 29330
+MD5Sum: 6fbea1ec7d2719fab0e1b033a084cb6f
+Size: 29322
 Filename: enigma2-plugin-extensions-webcamviewer_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-webcamviewer
@@ -3784,8 +3784,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: cc246bbbaafb7c0082f86ecd53864090
-Size: 46082
+MD5Sum: 1aff5cdbd763a316a5a5c080cbfb8e49
+Size: 46114
 Filename: enigma2-plugin-extensions-webinterface-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-webinterface (source files)
@@ -3799,8 +3799,8 @@ Depends: aio-grab, python-crypt, python-misc, python-pyopenssl, python-twisted-w
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: c8d3365a52f2bacc4cc07f42d2c1179f
-Size: 1115758
+MD5Sum: 0cf64f101b16ecb8f363f3cc2c9d43a2
+Size: 1115734
 Filename: enigma2-plugin-extensions-webinterface_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-webinterface
@@ -3814,8 +3814,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 50173c39c54da64570da776209607c74
-Size: 3480
+MD5Sum: 84ec804eaed4080fa7fc67f6349f58d1
+Size: 3472
 Filename: enigma2-plugin-extensions-yttrailer-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-yttrailer (translations)
@@ -3829,8 +3829,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: fb5f014c60aefcbad00b18e45b7fd38e
-Size: 6948
+MD5Sum: 1b6b1a1ef9955be4e7b89a93c14b8f81
+Size: 6944
 Filename: enigma2-plugin-extensions-yttrailer-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-yttrailer (source files)
@@ -3844,8 +3844,8 @@ Depends: gst-plugins-good-flv, python-gdata, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 8193c0a421a83d35685f5b0b14c759a7
-Size: 15662
+MD5Sum: b67d8541d878dbc428548a38d750966e
+Size: 15680
 Filename: enigma2-plugin-extensions-yttrailer_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-yttrailer
@@ -3859,8 +3859,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 940bb6086fecac07e36f48d8dc26ad97
-Size: 4436
+MD5Sum: 996567c2af30fc1cb78dc5b54c8c8234
+Size: 4430
 Filename: enigma2-plugin-extensions-zapstatistic-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-zapstatistic (translations)
@@ -3874,7 +3874,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7fe88228c537d2cfbba2da0d61b297ed
+MD5Sum: f13dc5342303c4388f6073fd741ffcd7
 Size: 4412
 Filename: enigma2-plugin-extensions-zapstatistic-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -3888,8 +3888,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 333904eebf3fe6ea198293c82c4a632f
-Size: 10694
+MD5Sum: d976513de7f86abb76b37fe6bc6e70c6
+Size: 10750
 Filename: enigma2-plugin-extensions-zapstatistic_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-zapstatistic
@@ -3903,8 +3903,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7522e42a3ef1d454e395fa1ca28aaea7
-Size: 8690
+MD5Sum: 938a096dea14fcf90ddaab2a45425b24
+Size: 8688
 Filename: enigma2-plugin-extensions-zdfmediathek-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-zdfmediathek (source files)
@@ -3918,8 +3918,8 @@ Depends: python-html, python-twisted-web
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 45e694efbcd0d7707824ecdcc86fe98e
-Size: 24190
+MD5Sum: 4ac580a4a4486b0e0a35741c042ab865
+Size: 24182
 Filename: enigma2-plugin-extensions-zdfmediathek_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: extensions-zdfmediathek
@@ -3927,14 +3927,14 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
-Package: enigma2-plugin-font-wqy-microhei
-Version: 4.4+git28237+096b4da-r0
+Package: enigma2-plugin-languages-wqy-microhei
+Version: 4.4+git28238+eb7a73b-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 451833fe3839a6d7c039a90efcd9e5fe
-Size: 670
-Filename: enigma2-plugin-font-wqy-microhei_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 555aa49bb5889c2d7ee90df53f58f4cb
+Size: 1548568
+Filename: enigma2-plugin-languages-wqy-microhei_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -3946,8 +3946,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ea42d1144c849edd2345ee85fae14821
-Size: 3780
+MD5Sum: 0d6c66adeda49d6a738f19be896dadf2
+Size: 3778
 Filename: enigma2-plugin-skincomponents-weathercomponent-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: Additional plugins for Enigma2
@@ -3961,8 +3961,8 @@ Depends: enigma2-plugin-extensions-weatherplugin
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 6b91a5d01c33a1aab30c5465640332e9
-Size: 6182
+MD5Sum: 93c4b939fc833ae12a35f3a13412b31b
+Size: 6190
 Filename: enigma2-plugin-skincomponents-weathercomponent_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: skincomponents-weathercomponent
@@ -4197,14 +4197,14 @@ License: GPLv2+
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-3gmodemmanager-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: a63067708b3cbdcbe81f6cf6318fd91d
-Size: 3832
-Filename: enigma2-plugin-systemplugins-3gmodemmanager-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 9c1b0e39d02918283927dc63ca53380f
+Size: 3852
+Filename: enigma2-plugin-systemplugins-3gmodemmanager-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-3gmodemmanager (translations)
 OE: enigma2-oe-alliance-plugins
@@ -4212,14 +4212,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-3gmodemmanager-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: ce327261599f9281d00260a1324f3167
-Size: 9786
-Filename: enigma2-plugin-systemplugins-3gmodemmanager-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: b38b384d5c3ddba2660407824f4737cf
+Size: 9782
+Filename: enigma2-plugin-systemplugins-3gmodemmanager-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-3gmodemmanager (source files)
 OE: enigma2-oe-alliance-plugins
@@ -4227,14 +4227,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-3gmodemmanager
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins, kernel-module-bsd-comp, kernel-module-cdc-acm, kernel-module-option, kernel-module-ppp-async, kernel-module-ppp-deflate, kernel-module-ppp-generic, kernel-module-ppp-mppe, kernel-module-ppp-synctty, kernel-module-pppoe, kernel-module-pppox, kernel-module-slhc, kernel-module-usbserial, libuniconf4.6, libwvstreams-extras, libwvutils4.6, ppp, usbmodeswitch, usbmodeswitch-data, usbutils, wvdial, wvstreams
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 5ea3ddd7507260c8f8638002660861ec
-Size: 19450
-Filename: enigma2-plugin-systemplugins-3gmodemmanager_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 1be1847d9f80fd0dc7b6ad26d1a3e806
+Size: 19460
+Filename: enigma2-plugin-systemplugins-3gmodemmanager_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-3gmodemmanager
 OE: enigma2-oe-alliance-plugins
@@ -4242,14 +4242,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-abmcustommiximporter-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 47c5f787f7467809e8b46d794adf0cb8
-Size: 4336
-Filename: enigma2-plugin-systemplugins-abmcustommiximporter-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 2a47deaec5a18d07a309e5c2a4117f2f
+Size: 4322
+Filename: enigma2-plugin-systemplugins-abmcustommiximporter-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-abmcustommiximporter (translations)
 OE: enigma2-oe-alliance-plugins
@@ -4257,14 +4257,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-abmcustommiximporter-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: c81be933602e7f8b26a3eeb2309d89ca
+MD5Sum: 0ff95dea48f0f156f25be828cca8bfb4
 Size: 5182
-Filename: enigma2-plugin-systemplugins-abmcustommiximporter-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-abmcustommiximporter-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-abmcustommiximporter (source files)
 OE: enigma2-oe-alliance-plugins
@@ -4272,14 +4272,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-abmcustommiximporter
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 529bae5a04023362622b41eb044ca8a2
-Size: 11814
-Filename: enigma2-plugin-systemplugins-abmcustommiximporter_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: cdc0ca3d57f94cafc381e3bcd2c0df3e
+Size: 11812
+Filename: enigma2-plugin-systemplugins-abmcustommiximporter_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-abmcustommiximporter
 OE: enigma2-oe-alliance-plugins
@@ -4287,14 +4287,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-aboutboxbranding-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 259196e893ba8cf6e7029d1a443c6d47
-Size: 1946
-Filename: enigma2-plugin-systemplugins-aboutboxbranding-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 9b46c81db22f09e031a9e452c7e3b06a
+Size: 1944
+Filename: enigma2-plugin-systemplugins-aboutboxbranding-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-aboutboxbranding (source files)
 OE: enigma2-oe-alliance-plugins
@@ -4302,14 +4302,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-aboutboxbranding
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: e3a8203ada81c63ae34cc589d3f70dca
+MD5Sum: d066ea21f20ea7a1f0cdd1d3ac7f6e9a
 Size: 2670
-Filename: enigma2-plugin-systemplugins-aboutboxbranding_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-aboutboxbranding_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-aboutboxbranding
 OE: enigma2-oe-alliance-plugins
@@ -4322,8 +4322,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 90c02a1de16790e5632f7315c7daa4d6
-Size: 5298
+MD5Sum: 8e63b93dcaf427d37836ce381e5759ff
+Size: 5314
 Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-automaticvolumeadjustment (translations)
@@ -4337,7 +4337,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7a856c54d52963f49084becf942adee8
+MD5Sum: 8284c846d3eea0fe71d0312895084163
 Size: 7342
 Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -4351,8 +4351,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d05da0f393a3f519aa0ab2654978048c
-Size: 14272
+MD5Sum: 50d84aecbb0a4f45c787a7d9642bc931
+Size: 14288
 Filename: enigma2-plugin-systemplugins-automaticvolumeadjustment_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-automaticvolumeadjustment
@@ -4366,8 +4366,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9ba41499a4842fc18c8de2c0f433bc07
-Size: 9146
+MD5Sum: ee91cbf9f0cab1561f777bb886fac673
+Size: 9120
 Filename: enigma2-plugin-systemplugins-autoresolution-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-autoresolution (translations)
@@ -4381,8 +4381,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 1070a76ef36f82b8b2fc31ec4988a531
-Size: 8598
+MD5Sum: 2fbb7dd29e755e79d434ef32edf46bfd
+Size: 8596
 Filename: enigma2-plugin-systemplugins-autoresolution-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-autoresolution (source files)
@@ -4396,8 +4396,8 @@ Recommends: enigma2-plugin-systemplugins-videomode
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 204a993e2ed06060063e6245a38e9b7a
-Size: 21670
+MD5Sum: acf4dc40eef3e8def2641f189f4b8053
+Size: 21630
 Filename: enigma2-plugin-systemplugins-autoresolution_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-autoresolution
@@ -4406,14 +4406,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-blindscan-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 18bcf98147871321ceea1f51cff95db4
-Size: 5332
-Filename: enigma2-plugin-systemplugins-blindscan-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: bfc90145de055d5235bb04ae0e6cb57d
+Size: 5312
+Filename: enigma2-plugin-systemplugins-blindscan-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-blindscan (translations)
 OE: enigma2-oe-alliance-plugins
@@ -4421,14 +4421,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-blindscan-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 60743b65231064b3995790ac6d8830d4
-Size: 15468
-Filename: enigma2-plugin-systemplugins-blindscan-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 3e65df107e7ffda8f2d0ca7011a869f8
+Size: 15462
+Filename: enigma2-plugin-systemplugins-blindscan-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-blindscan (source files)
 OE: enigma2-oe-alliance-plugins
@@ -4436,15 +4436,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-blindscan
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Recommends: virtual/blindscan-dvbs
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 69dda536481cc80c1aa6e972df40c408
-Size: 33646
-Filename: enigma2-plugin-systemplugins-blindscan_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: f8bd13395221b3ceae4d5d8be166542f
+Size: 33670
+Filename: enigma2-plugin-systemplugins-blindscan_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-blindscan
 OE: enigma2-oe-alliance-plugins
@@ -4452,14 +4452,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-channelsimporter-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 494f336a56eb1df0cfb26435d32bd3ef
+MD5Sum: 2fc8db5754f3f9de57117ac1e53b3175
 Size: 10002
-Filename: enigma2-plugin-systemplugins-channelsimporter-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-channelsimporter-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-channelsimporter (translations)
 OE: enigma2-oe-alliance-plugins
@@ -4467,14 +4467,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-channelsimporter-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: b52dc9b69f3775793ffeadd9a5f151db
+MD5Sum: 8aeaadbcd01b9ede561d33dda9fe16df
 Size: 7694
-Filename: enigma2-plugin-systemplugins-channelsimporter-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-channelsimporter-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-channelsimporter (source files)
 OE: enigma2-oe-alliance-plugins
@@ -4482,14 +4482,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-channelsimporter
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 3efdd28ec27bff28475f81a35c96fc49
-Size: 21822
-Filename: enigma2-plugin-systemplugins-channelsimporter_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 27fbe50d441ecd7c3a0f0dd1c33ecf17
+Size: 21802
+Filename: enigma2-plugin-systemplugins-channelsimporter_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-channelsimporter
 OE: enigma2-oe-alliance-plugins
@@ -4497,14 +4497,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: a90a887ef4db23a0a4d2939c14ad8e14
-Size: 6244
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: b626b9428c4cd143f488b6839041e7d3
+Size: 6236
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment (source files)
 OE: enigma2
@@ -4512,14 +4512,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 9504a7c31181c42e112afaeb78c80028
-Size: 9632
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 4a35f860ee00f2b360f3f7d88b51df1d
+Size: 9644
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
 OE: enigma2
@@ -4527,14 +4527,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: cc459802cd1f559f6dd6b22f0da1ae8d
-Size: 2634
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 76cd393905cd06af8a284f8fd11dd9c1
+Size: 2630
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner (source files)
 OE: enigma2
@@ -4542,14 +4542,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 8ed978cc395d102529aca09b15e7e724
+MD5Sum: bec084f775d0ac69b870ea9e69bb1462
 Size: 3346
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
 OE: enigma2
@@ -4557,14 +4557,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 2f3f6c70e2f1e023e4ed18bab5ea2c17
+MD5Sum: 2b4dacc10f92954167b9d60237f8632e
 Size: 6506
-Filename: enigma2-plugin-systemplugins-diseqctester-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester (source files)
 OE: enigma2
@@ -4572,14 +4572,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 2248abba0f45839fc8360fbc71963bfe
-Size: 8720
-Filename: enigma2-plugin-systemplugins-diseqctester_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: f878c1e732f59ea0512e487ac244530c
+Size: 8724
+Filename: enigma2-plugin-systemplugins-diseqctester_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
 OE: enigma2
@@ -4587,14 +4587,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 3698a66442b3642e043305862f0cdc80
-Size: 4956
-Filename: enigma2-plugin-systemplugins-fastscan-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 5cf6a5fda9482c25bef6812e72eb8790
+Size: 4952
+Filename: enigma2-plugin-systemplugins-fastscan-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan (source files)
 OE: enigma2
@@ -4602,14 +4602,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 05e94fe974ac3f44364785d8d8e128ea
-Size: 7520
-Filename: enigma2-plugin-systemplugins-fastscan_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: f283c0233d1e25cec807b43275a53d86
+Size: 7524
+Filename: enigma2-plugin-systemplugins-fastscan_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
 OE: enigma2
@@ -4617,14 +4617,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fempa-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 35eb7e07006333f871415b786bec3a51
-Size: 2770
-Filename: enigma2-plugin-systemplugins-fempa-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 2e72cea9ea085d4c14f990e49b7685c2
+Size: 2786
+Filename: enigma2-plugin-systemplugins-fempa-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-fempa (translations)
 OE: enigma2-oe-alliance-plugins
@@ -4632,14 +4632,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fempa
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: d8738e9dffb6972f7ea62b3dbeed2604
+MD5Sum: 6722787b4c289aae53c00dbbb98ebf05
 Size: 2828
-Filename: enigma2-plugin-systemplugins-fempa_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-fempa_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-fempa
 OE: enigma2-oe-alliance-plugins
@@ -4647,14 +4647,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: b98ffff83bab5136cee92f7c2f1302c6
+MD5Sum: 6dd6527f28e1533cedfd5175bd7296d1
 Size: 2332
-Filename: enigma2-plugin-systemplugins-hdmicec-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-hdmicec-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec (source files)
 OE: enigma2
@@ -4662,14 +4662,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: d10f0ae3367eb042f04ef5675b2a6a7b
+MD5Sum: d88822b54dd82b231be00fd47c98c77d
 Size: 3164
-Filename: enigma2-plugin-systemplugins-hdmicec_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-hdmicec_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
 OE: enigma2
@@ -4677,14 +4677,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 028f93fc38c48ed8e99c85da77317c6c
+MD5Sum: 1efef319f90e73638ec1b56cb34c2b89
 Size: 2032
-Filename: enigma2-plugin-systemplugins-hotplug-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-hotplug-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug (source files)
 OE: enigma2
@@ -4692,14 +4692,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2, hotplug-e2-helper
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 9dabc131c249c3e754a584bb306bbde3
+MD5Sum: 78681b71e6096dbe9195d71a708496ff
 Size: 2636
-Filename: enigma2-plugin-systemplugins-hotplug_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-hotplug_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
 OE: enigma2
@@ -4712,8 +4712,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 651aaa3025ee96ab2c4b6f74bf4c3b62
-Size: 19404
+MD5Sum: 37b70147708c1cfa2acf1add3a4a4700
+Size: 19420
 Filename: enigma2-plugin-systemplugins-mphelp-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-mphelp (translations)
@@ -4727,8 +4727,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: d8073d157f0f0e96b87ded14cca35676
-Size: 3152
+MD5Sum: 13b8889d7e81598d6229b0b72205f93c
+Size: 3148
 Filename: enigma2-plugin-systemplugins-mphelp-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-mphelp (source files)
@@ -4742,8 +4742,8 @@ Depends: python-xml
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 7787d9c345ad7e6f7f90095cc7191192
-Size: 23010
+MD5Sum: 3883048277d8781294ec339c8c9e4e5b
+Size: 23006
 Filename: enigma2-plugin-systemplugins-mphelp_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-mphelp
@@ -4757,8 +4757,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 53c9fa0e2312ef29d4cafcadeaeb5774
-Size: 28986
+MD5Sum: bbe37ff19e057412648527f810043795
+Size: 28984
 Filename: enigma2-plugin-systemplugins-networkbrowser-po_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-networkbrowser (translations)
@@ -4772,8 +4772,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 0e61f5f4076649fd62c65959dcae3dff
-Size: 18066
+MD5Sum: 70491b9979c0f75c004dad4ba3a13689
+Size: 18070
 Filename: enigma2-plugin-systemplugins-networkbrowser-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-networkbrowser (source files)
@@ -4787,8 +4787,8 @@ Depends: autofs, libc6 (>= 2.30), libtirpc3 (>= 1.1.4), smbclient
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 593784833c3f55d681bd45996fefd5cf
-Size: 90328
+MD5Sum: 10d93b9b2be8b8017353a88c6b97f3a9
+Size: 90366
 Filename: enigma2-plugin-systemplugins-networkbrowser_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-networkbrowser
@@ -4797,14 +4797,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 0688678836ef79952dc3623949459c38
-Size: 4370
-Filename: enigma2-plugin-systemplugins-networkwizard-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: f74ca0bbe04180f2b77a080d47bad90a
+Size: 4368
+Filename: enigma2-plugin-systemplugins-networkwizard-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard (source files)
 OE: enigma2
@@ -4812,14 +4812,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: f3567df962cc976276e54466b2e3d198
-Size: 7486
-Filename: enigma2-plugin-systemplugins-networkwizard_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 0c931956714026c695ec9d572d19952d
+Size: 7480
+Filename: enigma2-plugin-systemplugins-networkwizard_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
 OE: enigma2
@@ -4832,7 +4832,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: a45f474f39ea7fecb4e7c929ae3674e6
+MD5Sum: 13bbe857a8c7532420b6413721347122
 Size: 3848
 Filename: enigma2-plugin-systemplugins-pipservicerelation-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -4846,8 +4846,8 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 5691ae099913dd9425fe06831b4bc64e
-Size: 7442
+MD5Sum: 81e1b0b58cf882e930197e62e883f554
+Size: 7438
 Filename: enigma2-plugin-systemplugins-pipservicerelation_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-pipservicerelation
@@ -4856,14 +4856,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: c42aeeae22c94b8ea3d2273c27e6a22e
-Size: 14328
-Filename: enigma2-plugin-systemplugins-positionersetup-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 2af0675fae37799404837010b2f09c60
+Size: 14324
+Filename: enigma2-plugin-systemplugins-positionersetup-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup (source files)
 OE: enigma2
@@ -4871,14 +4871,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 8ddfa1c3591446b82b57eda27221f900
-Size: 20910
-Filename: enigma2-plugin-systemplugins-positionersetup_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: a61fcc307c46883e4051b5df70f5b189
+Size: 20918
+Filename: enigma2-plugin-systemplugins-positionersetup_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
 OE: enigma2
@@ -4886,14 +4886,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sabnzbd-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: ee3fc071736201830f545533ce086093
-Size: 2620
-Filename: enigma2-plugin-systemplugins-sabnzbd-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 4597bfdcc0916cfa72b565e80d705843
+Size: 2616
+Filename: enigma2-plugin-systemplugins-sabnzbd-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-sabnzbd (source files)
 OE: enigma2
@@ -4901,14 +4901,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-sabnzbd
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: c9b2fb2b0dabaac0e03620277161b451
-Size: 3664
-Filename: enigma2-plugin-systemplugins-sabnzbd_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: a6d0b7ce6299744f341d016dd8a6d033
+Size: 3660
+Filename: enigma2-plugin-systemplugins-sabnzbd_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-sabnzbd
 OE: enigma2
@@ -4916,14 +4916,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: fd3bb8c01e14063d5cbac0a9ccf66fe6
-Size: 2098
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 58f29a772851dc9dd186659c01cee337
+Size: 2100
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol (source files)
 OE: enigma2
@@ -4931,14 +4931,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: e0b66862603098ce00847c74ea1ee416
-Size: 2848
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: b5aab6e2792cce8c778f090019828efc
+Size: 2846
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
 OE: enigma2
@@ -4946,14 +4946,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: cd84e4352e563177fcddaca5c29fcacd
-Size: 8930
-Filename: enigma2-plugin-systemplugins-satfinder-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: d4143a56d140c5a52284619167a29145
+Size: 8934
+Filename: enigma2-plugin-systemplugins-satfinder-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder (source files)
 OE: enigma2
@@ -4961,14 +4961,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 5e32612babded0f8d30d3419e26f86a9
-Size: 11714
-Filename: enigma2-plugin-systemplugins-satfinder_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: fea1b1561944f904e678cb9ec6ebc9fd
+Size: 11712
+Filename: enigma2-plugin-systemplugins-satfinder_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
 OE: enigma2
@@ -4976,14 +4976,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satipclient-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: cde77659d6c15d799d5ed412a55dbd16
-Size: 5544
-Filename: enigma2-plugin-systemplugins-satipclient-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 76467b2695cabad239dccfb499a02970
+Size: 5530
+Filename: enigma2-plugin-systemplugins-satipclient-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-satipclient (translations)
 OE: enigma2-oe-alliance-plugins
@@ -4991,14 +4991,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satipclient-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: eebd7824f1995cfe465dba227dad8fd0
-Size: 7142
-Filename: enigma2-plugin-systemplugins-satipclient-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: d7a12431817bb43050f67be90d80bed8
+Size: 7140
+Filename: enigma2-plugin-systemplugins-satipclient-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-satipclient (source files)
 OE: enigma2-oe-alliance-plugins
@@ -5006,14 +5006,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satipclient
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins, satipclient
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: c95dc8adbe19c574af7774eb6ce84395
-Size: 15516
-Filename: enigma2-plugin-systemplugins-satipclient_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 8b8ccb2feeb00c8142fe075ae39b0865
+Size: 15522
+Filename: enigma2-plugin-systemplugins-satipclient_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-satipclient
 OE: enigma2-oe-alliance-plugins
@@ -5021,14 +5021,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-streamtv-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: e9312e66ece4dcdc3d425858bdbc6def
-Size: 3074
-Filename: enigma2-plugin-systemplugins-streamtv-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 6755ff11f6fe20da96b649b1eb5b5c9a
+Size: 3076
+Filename: enigma2-plugin-systemplugins-streamtv-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-streamtv (translations)
 OE: enigma2-oe-alliance-plugins
@@ -5036,14 +5036,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-streamtv
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 09b02d7643414810225fc3b6f607cd5a
-Size: 3168
-Filename: enigma2-plugin-systemplugins-streamtv_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: c611292ab4c14c2571bbfa83af6ff08c
+Size: 3180
+Filename: enigma2-plugin-systemplugins-streamtv_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-streamtv
 OE: enigma2-oe-alliance-plugins
@@ -5051,14 +5051,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-tempfancontrol-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 1bc046b8eed889d60261e327dbcd73ee
+MD5Sum: f0860ed876cb733bf881e0acefe9ae84
 Size: 4846
-Filename: enigma2-plugin-systemplugins-tempfancontrol-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-tempfancontrol-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-tempfancontrol (translations)
 OE: enigma2-oe-alliance-plugins
@@ -5066,14 +5066,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-tempfancontrol-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: f35307e49e408cc87bb7cd30d0b6922a
-Size: 2738
-Filename: enigma2-plugin-systemplugins-tempfancontrol-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 9dd4efab9665c78f2c9ce89b57a66ae1
+Size: 2740
+Filename: enigma2-plugin-systemplugins-tempfancontrol-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-tempfancontrol (source files)
 OE: enigma2-oe-alliance-plugins
@@ -5081,14 +5081,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-tempfancontrol
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 09e33c95128afbc4a4bf4803e1954987
-Size: 8360
-Filename: enigma2-plugin-systemplugins-tempfancontrol_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 010d06411aaf03e1b1d66a1aff7741eb
+Size: 8356
+Filename: enigma2-plugin-systemplugins-tempfancontrol_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-tempfancontrol
 OE: enigma2-oe-alliance-plugins
@@ -5101,7 +5101,7 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 663624e123f8a04ed937a2c6354767de
+MD5Sum: 5c9eb26ee30d94329947e4577169864a
 Size: 2436
 Filename: enigma2-plugin-systemplugins-toolkit-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -5116,8 +5116,8 @@ Depends: python-html, python-re, python-threading, python-twisted-core
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ed60847e94f8d85dbbd06bb942216d1f
-Size: 3796
+MD5Sum: c467cbd7f6a5b21831b4ceb3fdb02d4e
+Size: 3794
 Filename: enigma2-plugin-systemplugins-toolkit_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-toolkit
@@ -5126,14 +5126,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 01006be1ad7653fe1941114b0ff03a94
+MD5Sum: 1ce15eae133528eae4783b084f031988
 Size: 2288
-Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup (source files)
 OE: enigma2
@@ -5141,14 +5141,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: aec2b012368846757b0e7c3f29d13eb0
-Size: 3034
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 16f40dcf5da0882328fe7dd2b10929bc
+Size: 3026
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
 OE: enigma2
@@ -5156,14 +5156,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 2cd348a0a20959518567132a98f7355c
+MD5Sum: 12c6830c87381fb1cf83c8ca60249db5
 Size: 5618
-Filename: enigma2-plugin-systemplugins-videoenhancement-src_4.4+git28237+096b4da-r0_dm800se.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement (source files)
 OE: enigma2
@@ -5171,14 +5171,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: b0176e677aae5491d1ea1ef561b6572a
-Size: 8456
-Filename: enigma2-plugin-systemplugins-videoenhancement_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: cb8935f160bbb9e679d5ed8173cfcf9b
+Size: 8444
+Filename: enigma2-plugin-systemplugins-videoenhancement_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
 OE: enigma2
@@ -5186,14 +5186,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 0ece194148b3b2be0c46ef4f288e12d9
-Size: 3598
-Filename: enigma2-plugin-systemplugins-videotune-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 77371d69d3c8c20bdf5e145427a5dff4
+Size: 3594
+Filename: enigma2-plugin-systemplugins-videotune-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune (source files)
 OE: enigma2
@@ -5201,14 +5201,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 1c1b5b731edcbb55565bbecc9933b166
-Size: 5214
-Filename: enigma2-plugin-systemplugins-videotune_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: be132593d68a3a23b8207c785e437ead
+Size: 5218
+Filename: enigma2-plugin-systemplugins-videotune_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
 OE: enigma2
@@ -5222,8 +5222,8 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 9e1639f901708660face8d38b6e57cf7
-Size: 60256
+MD5Sum: 34563904ac5083e4dab64a25af81caac
+Size: 60220
 Filename: enigma2-plugin-systemplugins-vps-dbg_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-vps (debug)
@@ -5237,8 +5237,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 621eee6919688bd00df4c23197a5fc21
-Size: 14802
+MD5Sum: 64c2b8604d92e3023832653a173f642e
+Size: 14804
 Filename: enigma2-plugin-systemplugins-vps-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-vps (source files)
@@ -5254,8 +5254,8 @@ Conflicts: enigma2-plugin-extensions-vps
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 749df765bd0ab4d555cb65483f998d0f
-Size: 38472
+MD5Sum: 4f45a58b205f7122d3b01fa3405a9a76
+Size: 38492
 Filename: enigma2-plugin-systemplugins-vps_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-vps
@@ -5269,8 +5269,8 @@ Depends: enigma2-plugins
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 3cca4395c9eb8205df24e9e380a1dd99
-Size: 1364
+MD5Sum: e2ed35751f8acce5ea74946f97b519ce
+Size: 1368
 Filename: enigma2-plugin-systemplugins-weathercomponenthandler-src_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-weathercomponenthandler (source files)
@@ -5284,8 +5284,8 @@ Depends: enigma2-plugin-extensions-weatherplugin, enigma2-plugin-skincomponents-
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: e7c46c6eceaa8d0500fc7e428d938ecb
-Size: 1298
+MD5Sum: dde0407e6ff292bae2ffcef65fbae1ba
+Size: 1292
 Filename: enigma2-plugin-systemplugins-weathercomponenthandler_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
 Description: systemplugins-weathercomponenthandler
@@ -5294,14 +5294,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelessaccesspoint-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 32e9231261c82f5476f46135b7dd9457
-Size: 5586
-Filename: enigma2-plugin-systemplugins-wirelessaccesspoint-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: c64ae928694dd9de1704574e77b2db6d
+Size: 5584
+Filename: enigma2-plugin-systemplugins-wirelessaccesspoint-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-wirelessaccesspoint (translations)
 OE: enigma2-oe-alliance-plugins
@@ -5309,14 +5309,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelessaccesspoint-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: a6e1693e459c34c121aafd91b67ee41e
-Size: 8162
-Filename: enigma2-plugin-systemplugins-wirelessaccesspoint-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 716202fbe81c5df8c352c564cc1e649a
+Size: 8160
+Filename: enigma2-plugin-systemplugins-wirelessaccesspoint-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-wirelessaccesspoint (source files)
 OE: enigma2-oe-alliance-plugins
@@ -5324,14 +5324,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelessaccesspoint
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: bridge-utils, enigma2-oe-alliance-plugins, hostapd
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 1461735bd7e012f8f398a9ef89869d86
-Size: 30300
-Filename: enigma2-plugin-systemplugins-wirelessaccesspoint_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 9d3e3e76cc02625b3ed5ce958623c252
+Size: 30308
+Filename: enigma2-plugin-systemplugins-wirelessaccesspoint_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-wirelessaccesspoint
 OE: enigma2-oe-alliance-plugins
@@ -5339,14 +5339,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: c674797b08fb10d65e1d4c93fafd76be
-Size: 7542
-Filename: enigma2-plugin-systemplugins-wirelesslan-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 8075158a4330865aceefd25ba7b365a7
+Size: 7540
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan (source files)
 OE: enigma2
@@ -5354,14 +5354,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: enigma2, python-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 9de78a967bf1bc8906a2c3fe3cae1d4f
-Size: 11060
-Filename: enigma2-plugin-systemplugins-wirelesslan_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 824bb849c103b7355fc8417bbcefc72c
+Size: 11058
+Filename: enigma2-plugin-systemplugins-wirelesslan_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
 OE: enigma2
@@ -5369,14 +5369,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-xmlupdate-po
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 3dd45cfee40022ee10f86bf0758ef86c
-Size: 5192
-Filename: enigma2-plugin-systemplugins-xmlupdate-po_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 6ee2c0b907fea5d13697fda24fce09c3
+Size: 5188
+Filename: enigma2-plugin-systemplugins-xmlupdate-po_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-xmlupdate (translations)
 OE: enigma2-oe-alliance-plugins
@@ -5384,14 +5384,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-xmlupdate-src
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 9a154940fc95a00061b1a9d7e2d57bb8
-Size: 2936
-Filename: enigma2-plugin-systemplugins-xmlupdate-src_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: ebc17cfa38f80a985e175430da3556f4
+Size: 2938
+Filename: enigma2-plugin-systemplugins-xmlupdate-src_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-xmlupdate (source files)
 OE: enigma2-oe-alliance-plugins
@@ -5399,14 +5399,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-xmlupdate
-Version: 4.4+git2879+2aabde9-r1
+Version: 4.4+git2881+306d0bf-r1
 Depends: enigma2-oe-alliance-plugins
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 739b2a5b58c1041841dd00b059add5c0
-Size: 15038
-Filename: enigma2-plugin-systemplugins-xmlupdate_4.4+git2879+2aabde9-r1_dm800se.ipk
+MD5Sum: 95a8934daa60ca44e0e3805eb38c7e5e
+Size: 15042
+Filename: enigma2-plugin-systemplugins-xmlupdate_4.4+git2881+306d0bf-r1_dm800se.ipk
 Source: enigma2-oe-alliance-plugins.bb
 Description: systemplugins-xmlupdate
 OE: enigma2-oe-alliance-plugins
@@ -5419,7 +5419,7 @@ Recommends: libc6-dbg, libgcc-s-dbg, libstdc++-dbg, libtirpc-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 3e59d48056d8e8b56a1dcb81f9d65a23
+MD5Sum: 4f0203028fde7e5081d4d0206971cffa
 Size: 696
 Filename: enigma2-plugins-dbg_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -5435,7 +5435,7 @@ Recommends: aio-grab-dev, autofs-dev, avahi-daemon-dev, cdtextinfo-dev, dvdbacku
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: ee646805cd264151c6c5130f3d9c5ff9
+MD5Sum: 1294ad37151bfbf15113708898705187
 Size: 1150
 Filename: enigma2-plugins-dev_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -5449,7 +5449,7 @@ Version: 4.4+git7066+910882e-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: 25c58f8c368580f494a5dbc80d4175b4
+MD5Sum: 1b22d8eb3c1408e42858f9324c4f5d44
 Size: 10488
 Filename: enigma2-plugins-meta_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -5464,7 +5464,7 @@ Depends: python-ctypes
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance team
-MD5Sum: f4cb75eb680fe1e8014be834c21904b1
+MD5Sum: fb06c9bd93d62ad5154dce775fb9a6d0
 Size: 3260
 Filename: enigma2-plugins_4.4+git7066+910882e-r0_dm800se.ipk
 Source: enigma2-plugins.bb
@@ -5474,13 +5474,13 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-po
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: a7154cede74bf5c8c014c84001345305
-Size: 2401018
-Filename: enigma2-po_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 6099a0487ff0b89380b616f0b491af3f
+Size: 2400806
+Filename: enigma2-po_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -5488,13 +5488,13 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-src
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 671729a1559a80fd037c9066c961cc98
-Size: 502994
-Filename: enigma2-src_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: ab84261c86b092dfc781911629ab3600
+Size: 502902
+Filename: enigma2-src_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Source files
 OE: enigma2
@@ -5502,14 +5502,14 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2-staticdev
-Version: 4.4+git28237+096b4da-r0
-Depends: enigma2-dev (= 4.4+git28237+096b4da-r0)
+Version: 4.4+git28238+eb7a73b-r0
+Depends: enigma2-dev (= 4.4+git28238+eb7a73b-r0)
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: 9f7cf1a1ba9d6abe15dab7243db4cdc8
-Size: 7002
-Filename: enigma2-staticdev_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: 645007f0110f5770f6dfc0d71591048c
+Size: 6982
+Filename: enigma2-staticdev_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - Development files (Static Libraries)
 OE: enigma2
@@ -5517,15 +5517,15 @@ License: GPLv2
 Priority: optional
 
 Package: enigma2
-Version: 4.4+git28237+096b4da-r0
+Version: 4.4+git28238+eb7a73b-r0
 Depends: alsa-conf, enigma2-fonts, enigma2-plugin-skins-blackshadowsep, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.18.5+git19085+4c7bc58), hotplug-e2-helper, libavahi-client3 (>= 0.7), libavahi-common3 (>= 0.7), libc6 (>= 2.30), libcrypt2 (>= 4.4.8), libcrypto1.0.2 (>= 1.0.2r), libdreamdvd0 (>= 1.0+git217+02a0e7c), libdvbsi++1 (>= 0.3.9+git128+515a1b6), libfreetype6 (>= 2.10.1), libfribidi0 (>= 1.0.5), libgcc1 (>= 9.2.0), libgif7 (>= 5.1.4), libglib-2.0-0 (>= 2.64.4), libgomp1 (>= 9.2.0), libgstpbutils-1.0-0 (>= 1.18.5+git20611+4b101d8), libjpeg62 (>= 2.0.3), libpng16-16 (>= 1.6.37), libpython2.7-1.0 (>= 2.7.18), libsigc-2.0-0 (>= 2.10.2), libssl1.0.2 (>= 1.0.2r), libstdc++6 (>= 9.2.0), libtuxtxt0 (>= 2.0+git82+1402795), libtuxtxt32bpp0 (>= 2.0+git82+1402795), libudfread0 (>= 1.0.0+git108+b3e6936), libxml2 (>= 2.9.9), oe-alliance-branding, python-codecs, python-core, python-crypt, python-fcntl, python-lang, python-mmap, python-netclient, python-netifaces, python-netserver, python-pickle, python-process, python-pyusb, python-re, python-shell, python-six, python-subprocess, python-threading, python-twisted-core, python-twisted-web, python-xml, python-zlib, python-zopeinterface, virtual/blindscan-dvbc
 Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mms, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-neonhttpsrc, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Alliance
-MD5Sum: f3ac410cc45c9f51d6d58edc68ef1099
-Size: 1723906
-Filename: enigma2_4.4+git28237+096b4da-r0_dm800se.ipk
+MD5Sum: f2b4e0e73dcb4a804141f883e20b97cf
+Size: 1728782
+Filename: enigma2_4.4+git28238+eb7a73b-r0_dm800se.ipk
 Source: enigma2.bb
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
 OE: enigma2
@@ -16743,7 +16743,7 @@ Recommends: avahi-daemon-dbg, bash-dbg, cronie-dbg, dropbear-dbg, e2fsprogs-e2fs
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 921f68fd36a53b468b2154d873be8244
+MD5Sum: 8c5d44e5cb3af8bc9e92f591edcc6170
 Size: 890
 Filename: oe-alliance-base-dbg_4.4-r0_dm800se.ipk
 Source: oe-alliance-base.bb
@@ -16759,7 +16759,7 @@ Recommends: avahi-daemon-dev, bash-dev, cronie-dev, dropbear-dev, e2fsprogs-e2fs
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0d045defc4c7a496746ce77bd006451c
+MD5Sum: 4350f80862d663e831b820ef0afd3216
 Size: 916
 Filename: oe-alliance-base-dev_4.4-r0_dm800se.ipk
 Source: oe-alliance-base.bb
@@ -16774,7 +16774,7 @@ Depends: avahi-daemon, bash, cronie, dropbear, e2fsprogs-e2fsck, e2fsprogs-mke2f
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9e04530abf1199bb33c461f1d7d3d22e
+MD5Sum: 0c1436df9683100022df7df2f8d24165
 Size: 814
 Filename: oe-alliance-base_4.4-r0_dm800se.ipk
 Source: oe-alliance-base.bb
@@ -16789,8 +16789,8 @@ Recommends: libc6-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 29165c13500e2ddc2ec8eb4fca7dbc46
-Size: 66446
+MD5Sum: 477c881342f6a9c77b2b19e6e4b1fc30
+Size: 66478
 Filename: oe-alliance-branding-dbg_4.4+git990+aac6a87-r20211202-dm800se_dm800se.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version 4.4+gitAUTOINC+aac6a878ee-r20211202-dm800se - Debugging files
@@ -16805,8 +16805,8 @@ Recommends: libc6-dev, python-dev
 Section: devel
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: ab1e6b68811d3fc93ccc9004e1e25211
-Size: 740
+MD5Sum: 02f269265719c4b9afcd0c31c5909d05
+Size: 738
 Filename: oe-alliance-branding-dev_4.4+git990+aac6a87-r20211202-dm800se_dm800se.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version 4.4+gitAUTOINC+aac6a878ee-r20211202-dm800se - Development files
@@ -16819,8 +16819,8 @@ Version: 4.4+git990+aac6a87-r20211202-dm800se
 Section: devel
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: 7b2c16c11f094af166bb7e84b837db7d
-Size: 3846
+MD5Sum: 3e3f9b50ccf58dc5c836d047b64ad7fa
+Size: 3844
 Filename: oe-alliance-branding-src_4.4+git990+aac6a87-r20211202-dm800se_dm800se.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version 4.4+gitAUTOINC+aac6a878ee-r20211202-dm800se - Source files
@@ -16834,8 +16834,8 @@ Depends: libc6 (>= 2.30)
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance team
-MD5Sum: a851e86099b0a19601c6c008a2595c7f
-Size: 163418
+MD5Sum: 9970e25652fc15514eabc9cfa4584b90
+Size: 163416
 Filename: oe-alliance-branding_4.4+git990+aac6a87-r20211202-dm800se_dm800se.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version 4.4+gitAUTOINC+aac6a878ee-r20211202-dm800se
@@ -16849,7 +16849,7 @@ Recommends: aio-grab-dbg, enigma2-dbg, enigma2-locale-meta-dbg, oe-alliance-botf
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0e5d5d22fae1efd708bcdba0335febf1
+MD5Sum: 2cce78546ce04cbb716ca6dbb639941f
 Size: 776
 Filename: oe-alliance-enigma2-dbg_4.4-r2_dm800se.ipk
 Source: oe-alliance-enigma2.bb
@@ -16865,7 +16865,7 @@ Recommends: aio-grab-dev, enigma2-3rdparty-plugins-dev, enigma2-dev, enigma2-loc
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb7c789955e8e6f580c05c0bc30de481
+MD5Sum: 294e4abf7f7294bd2b9eebd10c6644fe
 Size: 830
 Filename: oe-alliance-enigma2-dev_4.4-r2_dm800se.ipk
 Source: oe-alliance-enigma2.bb
@@ -16881,7 +16881,7 @@ Recommends: enigma2-plugin-extensions-mediascanner, enigma2-plugin-extensions-op
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f976519e8a1785b268a19522d2dcd0f5
+MD5Sum: b6020b6c3964ed5378494557b84632db
 Size: 844
 Filename: oe-alliance-enigma2_4.4-r2_dm800se.ipk
 Source: oe-alliance-enigma2.bb
@@ -16987,7 +16987,7 @@ Recommends: enigma2-plugin-drivers-network-usb-ath9k-htc-dbg, enigma2-plugin-dri
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 912cf32c1c5abe9477c884ce9dcabd36
+MD5Sum: dab0a6556a9488a95ae5ead1fa28d008
 Size: 792
 Filename: oe-alliance-wifi-dbg_4.4-r13_dm800se.ipk
 Source: oe-alliance-wifi.bb
@@ -17003,8 +17003,8 @@ Recommends: enigma2-dev, enigma2-oe-alliance-plugins-dev, enigma2-plugin-drivers
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 71da8c4eb4c47d73fbd9fbecc6fd6d7e
-Size: 840
+MD5Sum: aa3e23f08ead9dc97a4bf31c5680e9ef
+Size: 842
 Filename: oe-alliance-wifi-dev_4.4-r13_dm800se.ipk
 Source: oe-alliance-wifi.bb
 Description: preinstall several wifi driver packages - Development files
@@ -17018,7 +17018,7 @@ Depends: enigma2-plugin-drivers-network-usb-ath9k-htc, enigma2-plugin-drivers-ne
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 98ac58f2324d6cecee2902f28bab5d5e
+MD5Sum: 427398b31e66897e624e20509cb889f9
 Size: 720
 Filename: oe-alliance-wifi_4.4-r13_dm800se.ipk
 Source: oe-alliance-wifi.bb
@@ -17124,7 +17124,7 @@ Version: 4.4-r5
 Section: devel
 Architecture: dm800se
 Maintainer: OpenBH
-MD5Sum: cba396cff2ea8cf86cdcdd8cede35f99
+MD5Sum: 87b75b098574bd35da05cbab35de00af
 Size: 626
 Filename: openbh-feeds-dbg_4.4-r5_dm800se.ipk
 Source: openbh-feeds.bb
@@ -17139,7 +17139,7 @@ Depends: openbh-feeds (= 4.4-r5)
 Section: devel
 Architecture: dm800se
 Maintainer: OpenBH
-MD5Sum: 36e3877018f1e6eb919cd3e45f18de98
+MD5Sum: b50f5b82372d6ed3cd780a0d1b435274
 Size: 658
 Filename: openbh-feeds-dev_4.4-r5_dm800se.ipk
 Source: openbh-feeds.bb
@@ -17154,7 +17154,7 @@ Recommends: enigma2-plugin-softcams-cccam-v209, enigma2-plugin-softcams-cccam-v2
 Section: base
 Architecture: dm800se
 Maintainer: OpenBH
-MD5Sum: a4cf7f3d2973528caf7b650146167055
+MD5Sum: cfb9a260de9876477a5f3081b32fc8f4
 Size: 622
 Filename: openbh-feeds_4.4-r5_dm800se.ipk
 Source: openbh-feeds.bb
